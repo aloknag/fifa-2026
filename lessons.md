@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-17
+**Last updated:** 2026-06-18 (re-prediction pass via ESPN/Playwright — no new grades; corrected fixture ET dates + softened CAN-QAT to 2-1 per v2.6's "don't bet the X-0 zero vs an organized scorer")
 
 ---
 
@@ -50,6 +50,15 @@ Grading Jun 16 sharply **reversed** the Jun 15 draw wave: all three favorites WO
 - **Don't over-cap elite-favorite margins (extends v2.3):** Iraq and Algeria are organized, non-leaky sides, yet shipped 4 and 3 — an elite attack buries even a competent underdog. Our 0-2 (NOR) and 1-0 (ARG) caps were too timid; both still scored (3pt + 4pt) but missed the exact.
 - **X-0 floor rule validated:** ARG 1-0 → actual 3-0 earned **4pts** because Algeria's 0 matched. Keep predicting X-0 for clear favorites whose opponent plausibly blanks.
 
+### v2.6 — Matchday-2 Regime Shift: MD1 Draw Gravity Was Opener-Specific (June 18)
+Grading the Jun 17 slate produced the cleanest disconfirmation yet: **every one of the four MD1 predictions missed the outcome, and the two competing models gave opposite errors on the same day.** We backed the elite-attacking-fav WIN (POR 2-0, per v2.5) → actual **1-1 draw** (Portugal held by an organized DR Congo). We backed the DRAW twice (ENG 1-1, GHA 1-1, per v2.4) → ENG **won 4-2** (a -138 fav blew out elite Croatia) and GHA **won 1-0** on a 90+5' winner. Only the straight fav-win read (UZB-COL) scored, and only 3pts (X-0 floor missed — the debutant scored). The lesson is not "tweak the MD1 rule again" — it's that **the entire MD1 draw-gravity corpus (v2.2 / v2.4 / v2.5) describes an opening-match regime** (rust, extreme caution, first-game variance, modal draw). The calendar has now rolled to **Matchday 2**, where teams have shed rust and the better side converts far more reliably. New rules:
+- **MD2+ regime: drop the broad draw default.** From Matchday 2 onward, back the stronger/fitter side to WIN when the line and form support it. Do not import "openers gravitate to draws" into MD2 — it is not the same population.
+- **Reserve the draw lean for genuinely even MD2 matchups** (true pick-'em lines, e.g. MEX-KOR +105, SCO-MAR −135 with a fit organized underdog), not for any competitive game.
+- **Don't auto-assume the X-0 zero against organized debutants (extends Rule 2).** UZB-COL: Colombia won but Uzbekistan scored (Fayzullaev) — a competent debutant that gets numbers forward will often get on the board. Reserve X-0 for genuinely leaky opponents or dominant clean-sheet favorites; otherwise X-1 protects the 3pt floor without betting the opponent blanks.
+- **Late-winner pattern persists across matchdays:** GHA-PAN was 0-0 into the 90th then 1-0 (the CIV-ECU shape). Floor games still break 1-0, not 0-0 — keep Rule 1 (never 0-0).
+- **Caveat — small MD2 sample.** v2.6 is a regime call made on a single rolled-over calendar, not yet on graded MD2 results. Grade the Jun 18-20 slate hard; if MD2 favorites also stumble, the issue is our favorite-strength read, not the matchday regime.
+- **Process: verify fixture dates against the source's local calendar.** The re-prediction pass found MEX-KOR logged on Jun 18 when ESPN's ET calendar has it Jun 19 (1 AM ET), and BRA-HAI/TUR-PAR logged Jun 19 when they're Jun 20 (early-AM ET). Late-night-ET kickoffs of games "felt" as the prior evening drift one day off. Always slot a fixture by the **ET date ESPN files it under**, not by intuition.
+
 ---
 
 ## Score-Maximizing Strategy
@@ -87,12 +96,12 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 3. 1-1 draw → floor is 0pts if actual is a multi-goal lopsided win; 1pt if one team scores 1
 4. 0-0 draw → nearly identical floor to 1-1 but with worse 6pt hit rate — never preferred
 
-### Current score baseline (as of 2026-06-17)
-- 42 pts from 19 graded matches (36.8% efficiency vs 114pt max)
-- Exact hits (6pts each) still just 2 matches (12/42); correct-outcome rate 8/19 (42%)
-- Average per match: 2.2 pts; target ≥ 3.0 pts/match to outperform field
-- Losses to 0: still 4 (CAN, QAT, AUS, IRN) — none on Jun 16; the X-0 floor rule + correct-side calls kept all three Jun 16 picks scoring (1/3/4)
-- Margin discipline is now the main leak: 3 of the last 6 graded were "win, wrong margin" (under-shot). v2.5 lifts margins on elite attacking favorites
+### Current score baseline (as of 2026-06-18)
+- 46 pts from 23 graded matches (33.3% efficiency vs 138pt max)
+- Exact hits (6pts each) still just 2 matches (12/46); correct-outcome rate 10/23 (43%)
+- Average per match: 2.0 pts; target ≥ 3.0 pts/match to outperform field
+- Losses to 0: now 6 (CAN, QAT, AUS, IRN, POR-COD, ENG-CRO) — both Jun 17 zeros came from over-trusting MD1 rules (one drew when we backed a win, one blew out when we backed a draw)
+- **Main leak is no longer margin — it's outcome on MD1.** Jun 17 went 0/4 on outcomes; the MD1 draw-gravity model whipsawed. v2.6 retires that model for MD2+ and bets the better side to convert. Watch whether MD2 favorites actually convert before trusting v2.6 broadly.
 
 ---
 
@@ -119,6 +128,10 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 16 | FRA vs SEN | 1-1 → 3-1. Don't default an elite, fully-fit attacking favorite to a draw even vs an elite opponent — Mbappé brace, France's class told. (→ v2.5) |
 | Jun 16 | IRQ vs NOR | 0-2 → 1-4. Outcome ✓ but margin far too timid; an elite attack (Haaland) buries even an organized underdog — stop over-capping. (→ v2.3/v2.5) |
 | Jun 16 | ARG vs ALG | 1-0 → 3-0. 🎯 X-0 floor rule earned 4pts (ALG 0=0). Messi hat-trick; margin too low for the exact — lift elite-favorite goal counts. (→ v2.5) |
+| Jun 17 | POR vs COD | 2-0 → 1-1. Elite-attacking-fav-win (v2.5) failed on MD1 — Portugal held by an organized debutant. The MD1 model is unreliable in both directions. (→ v2.6) |
+| Jun 17 | ENG vs CRO | 1-1 → 4-2. A modest fav (-138) blew out elite Croatia; MD1 draw lean badly wrong. Opposite error to POR same day. (→ v2.6) |
+| Jun 17 | GHA vs PAN | 1-1 → 1-0. 0-0 into the 90th, Yirenkyi won it 90+5'. Late-winner/floor pattern persists; GHA 1=1 saved 1pt. (→ v2.6) |
+| Jun 17 | UZB vs COL | 2-0 → 1-3. Fav win ✓ (3pts) but the debutant scored — don't auto-assume the X-0 zero vs an organized side. (→ v2.6) |
 
 ---
 
