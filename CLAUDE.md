@@ -67,6 +67,8 @@ Each run is self-contained. Steps:
    news (injuries, lineups), verify each fixture's group, and add a predicted scoreline + rationale
    to the tracker applying the active model from `lessons.md`.
 5. **Update BOTH files in place** (refresh both timestamps) and notify Alok with a short summary.
+6. **Review** with human and get approval.
+7. **Commit changes and push** after approval and score status agreement. 
 
 ### Tools
 - Web research: `WebSearch` / web fetch for fixtures, odds, previews, injury news.
