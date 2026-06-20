@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-19 — added the **OUTCOME-ACCURACY-FIRST North Star** (top of file) as the standing rule after a draw-pick audit (draw picks 2/7 = 29% vs win picks 10/19 = 53%). Also graded the first MD2 slate (CZE/SUI/CAN/MEX → +9 → 55) and added v2.7 (host blowouts + margin timidity).
+**Last updated:** 2026-06-20 — graded Jun 19–20 slate (**+17 pts**, best slate yet: two exacts, one 4pt, one 1pt → **72/186** from 31 graded). Outcome-first North Star validated (3/4 correct, 75%). Added v2.8 (X-0 commitment for hosts; coin-flip caution).
 
 ---
 
@@ -10,9 +10,9 @@ _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. R
 
 Getting the **result (W/D/L) right** is the whole game. Correct outcome = a **guaranteed 3 pts** floor and the only gateway to 4 and 6. Wrong outcome = a **ceiling of 1 pt** (usually 0). So flipping one outcome wrong→right is worth ≈ **+3 pts**; refining a scoreline is worth ≈ **+0.5–1**. Always fix the outcome first, then optimize the scoreline.
 
-**Our own data shows where we bleed (through 27 games, outcome accuracy 12/27 = 44%):**
-- **Draw picks: 2/7 correct (29%)** — only BEL-EGY & NED-JPN hit; CIV, FRA, ENG, GHA, MEX all missed.
-- **Win picks: 10/19 correct (53%)** — and MD2 win picks are converting.
+**Our own data shows where we bleed (through 31 games, outcome accuracy 15/31 = 48%):**
+- **Draw picks: 2/8 correct (25%)** — only BEL-EGY & NED-JPN hit; CIV, FRA, ENG, GHA, MEX all missed.
+- **Win picks: 13/23 correct (57%)** — MD2 win picks converting, and outcome-first approach lifting accuracy (3/4 on Jun 19–20 slate).
 
 Draws have only a ~27% base rate and are the hardest outcome to call. **Predicting draws has been our single biggest unforced error.**
 
@@ -87,6 +87,12 @@ Grading the first real Matchday-2 slate **validated v2.6's core call but exposed
 - **A depleted underdog is not an automatic blank/loss.** South Africa, down to a thinned squad and beaten on MD1, still drew Czechia 1-1 via a late penalty. A modest favorite (-125) is not a lock; keep the X-1 / draw-aware floor when the "favorite" edge is small and the underdog can win a set-piece or penalty.
 - **Reaffirm the genuine-pickem draw (v2.6):** reserve 1-1 for two-organized-defense coin-flips (SCO-MAR −135). MEX-KOR taught the limit — a *host* at a near-pickem line should be leaned toward the win, not the draw.
 
+### v2.8 — X-0 Commitment & Coin-Flip Caution (June 20)
+Grading the Jun 19–20 slate produced the **best single-slate score yet (+17, two exacts)** and validated the outcome-first North Star (3/4 correct outcomes, 75%). But the one points leak — USA 2-1 → actual 2-0 (4pts instead of the 6pt exact) — repeats the same error as CAN (softened from 2-0 to 2-1, missed the 4pt floor). Hosts keep blanking opponents and we keep fearing the opponent's goal. New rules:
+- **Commit fully to X-0 for host favorites.** USA 2-0, CAN 6-0, MEX 1-0 — all three co-hosts won with clean sheets in their home games. When predicting a host win vs a weak/depleted side, lock in the zero. We have now lost points on X-0 softening **twice** (CAN 2-1→6-0, USA 2-1→2-0). The organized-opponent fear is costing more than the occasional opponent goal would.
+- **True coin-flips (lines ±110) with mutual desperation are genuinely 50/50 — lower confidence, so play for the consolation floor with X-1, NOT X-0.** TUR -105 vs PAR was the slate's only miss. Both teams were desperate (TUR lost MD1, PAR lost 1-4) and the line was essentially even. An early Galarza stunner (2') and a smash-and-grab held despite Almirón's red card. The X-0 floor (Rule 2) only protects you when you are *confident in the winner* — in a coin-flip you might back the wrong side, and then an X-0 scores **0** while an X-1 still banks **1pt** when the opponent scores the modal 1. Proof: we predicted TUR 2-1 → got 1pt (PAR's 1 matched); a "tidy" 2-0 would have scored 0. So when the line says "coin flip" and both teams are all-in, **don't pretend you can pick the winner — predict X-1 (e.g. 2-1), keeping the loser-scores-1 consolation, and accept these are low-confidence plays whose realistic floor is 1pt, not 3.**
+- **Outcome-first North Star is the dominant driver.** SCO-MAR (flipped from draw to Morocco win → exact 🎯) was the signature call. BRA-HAI 3-0 exact proves v2.3/v2.7 margin-lift is calibrated for elite-vs-weak. Keep the discipline: back the favorite, lift the margin, take the zero.
+
 ---
 
 ## Score-Maximizing Strategy
@@ -124,12 +130,13 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 3. 1-1 draw → floor is 0pts if actual is a multi-goal lopsided win; 1pt if one team scores 1
 4. 0-0 draw → nearly identical floor to 1-1 but with worse 6pt hit rate — never preferred
 
-### Current score baseline (as of 2026-06-19)
-- 55 pts from 27 graded matches (34.0% efficiency vs 162pt max)
-- Exact hits (6pts each) still just 2 matches (12/55); correct-outcome rate 12/27 (44%)
-- Average per match: 2.04 pts; target ≥ 3.0 pts/match to outperform field
-- Losses to 0: still 6 (CAN, QAT, AUS, IRN, POR-COD, ENG-CRO) — no new zeros on the Jun 18-19 slate (every pick scored 1/3/4)
-- **MD2 confirmed v2.6 (favorites convert) and re-surfaced margin as the main leak.** 3 of the last 4 graded were "right side, margin too low"; hosts especially are routing (CAN 6-0, USA 4-1, MEX win). v2.7 lifts host/strong-favorite margins to 3+ and reclaims the X-0 floor for hosts vs weak sides. The single best EV upgrade available is converting more 3pt/4pt "right-side" calls into 6pt exacts by being braver on the goal count.
+### Current score baseline (as of 2026-06-20)
+- **72 pts from 31 graded matches** (38.7% efficiency vs 186pt max)
+- Exact hits (6pts each): **4 matches** (24/72 = 33% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI
+- Correct-outcome rate: **15/31 (48%)** — up from 44%; win picks 13/23 (57%), draw picks 2/8 (25%)
+- Average per match: **2.32 pts** (up from 2.04); target ≥ 3.0 pts/match
+- Losses to 0: still 6 (CAN, QAT, AUS, IRN, POR-COD, ENG-CRO) — no new zeros since Jun 17
+- **Jun 19–20 was the best slate: +17 from 4 matches (4.25 pts/match).** Two exacts (SCO-MAR, BRA-HAI), one 4pt host win (USA-AUS), one 1pt miss (TUR-PAR). The outcome-first North Star is working. The X-0 softening leak persists (USA 2-0 would have been exact at 2-0) → v2.8 commits fully to X-0 for hosts.
 
 ---
 
@@ -164,6 +171,10 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 18 | SUI vs BIH | 2-1 → 4-1. v2.6 fav-converts ✓ and BIH 1=1 → 4pts, but margin under-shot (5 goals in 23'). Lift winning margins. (→ v2.7) |
 | Jun 18 | CAN vs QAT | 2-1 → 6-0. Host blowout (J. David hat-trick). We softened off the X-0 and lost the 4pt floor; host adrenaline = rout, take the zero vs a weak side. (→ v2.7) |
 | Jun 19 | MEX vs KOR | 1-1 → 1-0. Host won a near-pickem; don't auto-draw a host even at +105. MEX 1=1 saved 1pt. (→ v2.7) |
+| Jun 19 | USA vs AUS | 2-1 → 2-0. 🎯 Outcome ✓ (4pts, USA 2=2). But X-0 (2-0) would have been the **exact** — softened to 2-1 and lost 2pts. Third time hosts blanked (CAN 6-0, MEX 1-0, now USA 2-0). Stop fearing the opponent goal for hosts. (→ v2.8) |
+| Jun 19 | SCO vs MAR | 0-1 → 0-1. 🎯 **EXACT HIT.** The outcome-first flip (1-1 draw → 0-1 Morocco win) was the best single call of the tournament. Saibari struck after 72 seconds. Back the favorite, not the draw. (→ North Star validated) |
+| Jun 19 | BRA vs HAI | 3-0 → 3-0. 🎯 **EXACT HIT.** v2.3 blowout ceiling + v2.7 margin lift + X-0 floor all converged perfectly. Cunha + Vinícius ×2. Elite attack vs beatable minnow with a real margin and a blank — model fully calibrated for this profile. |
+| Jun 20 | TUR vs PAR | 2-1 → 0-1. Miss. Galarza long-range stunner (2') for Paraguay; Almirón red (45') but they held despite 33 TUR shots. A -105 coin-flip with mutual desperation is genuinely unpredictable. (→ v2.8) |
 
 ---
 
