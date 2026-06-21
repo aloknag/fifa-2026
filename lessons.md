@@ -186,7 +186,7 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 20 | GER vs CIV | 2-1 → 2-1. 🎯 **EXACT HIT.** Undav brace off the bench (68', 90+4') after Kessié's opener. The deliberate X-1 withhold (Germany leaks → CIV scores) was exactly right — the "threatening opponent" half of the test. (→ v2.9) |
 | Jun 20 | ECU vs CUW | 2-0 → 0-0. Miss. A bunkering debutant + hot keeper (Eloy Room, 15 saves) held a -909 favorite scoreless — the ESP-CPV 0-0 pattern again. Don't over-lift the margin vs a low-block; CUW 0=0 saved 1pt. (→ v2.9 reaffirms v2.4) |
 | Jun 20 | NED vs SWE | 2-1 → 5-1. Win (4pts, SWE 1=1). X-1 withhold paid off (Sweden scored) but margin badly under-shot — elite favorites keep routing. Margin timidity persists. (→ v2.9/v2.7) |
-| Jun 20 | TUN vs JPN | 2-1 → 4-0. Win (3pts). Softened to X-1 fearing a must-win Tunisia would commit forward; they got picked off and **blanked** — the X-0 (2-0) was the 4pt floor. Clear fav vs toothless side → take the zero. (→ v2.9) |
+| Jun 20 | TUN vs JPN | 1-2 → 0-4. Win (3pts). Softened to X-1 fearing a must-win Tunisia would commit forward; they got picked off and **blanked** — the X-0 (0-2) was the 4pt floor. Clear fav vs toothless side → take the zero. (→ v2.9) |
 
 ---
 
