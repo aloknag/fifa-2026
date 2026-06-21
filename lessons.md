@@ -144,7 +144,7 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 - Correct-outcome rate: **18/35 (51%)** — win picks 16/27 (59%), draw picks 2/8 (25%)
 - Average per match: **2.46 pts** (up from 2.32); target ≥ 3.0 pts/match
 - Losses to 0: still 6 (CAN, QAT, AUS, IRN, POR-COD, ENG-CRO) — no new zeros since Jun 17; the Jun 20 slate's worst was 1pt
-- **Jun 20 was a strong slate: +14 from 4 matches (3.5 pts/match), one exact (GER-CIV).** The X-0 judgment decided it: two correct withholds (GER, NED → 6pt + 4pt) and one bad softening (TUN-JPN: predicted 1-2 vs a toothless side that blanked → 3pt, missed the 4pt floor) → v2.9 generalizes X-0 commitment to all clear favorites vs toothless sides.
+- **Jun 20 was a strong slate: +14 from 4 matches (3.5 pts/match), one exact (GER-CIV).** The three X-1 *withhold* calls decided it (ECU-CUW was a separate X-0 commitment, correctly called): two correct withholds (GER, NED → 6pt + 4pt) and one bad softening (TUN-JPN: predicted 1-2 vs a toothless side that blanked → 3pt, missed the 4pt floor) → v2.9 generalizes X-0 commitment to all clear favorites vs toothless sides.
 
 ---
 
