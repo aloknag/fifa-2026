@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-20 — graded Jun 19–20 slate (**+17 pts**, best slate yet: two exacts, one 4pt, one 1pt → **72/186** from 31 graded). Outcome-first North Star validated (3/4 correct, 75%). Added v2.8 (X-0 commitment for hosts; coin-flip caution).
+**Last updated:** 2026-06-21 — graded Jun 20 slate (**+14 pts**: GER-CIV exact 🎯, NED-SWE 4, TUN-JPN 3, ECU-CUW 1 → **86/210** from 35 graded). Outcome-first North Star again 3/4 (75%). The three X-1 *withhold* calls went 2/3 — right on GER & NED (withheld → opponent scored), wrong on TUN (softening). _(ECU-CUW was a separate X-0 commitment, not a withhold.)_ Added **v2.9** (generalize X-0 commitment to all clear favorites vs toothless sides; the "toothless-vs-threatening" test).
 
 ---
 
@@ -10,9 +10,9 @@ _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. R
 
 Getting the **result (W/D/L) right** is the whole game. Correct outcome = a **guaranteed 3 pts** floor and the only gateway to 4 and 6. Wrong outcome = a **ceiling of 1 pt** (usually 0). So flipping one outcome wrong→right is worth ≈ **+3 pts**; refining a scoreline is worth ≈ **+0.5–1**. Always fix the outcome first, then optimize the scoreline.
 
-**Our own data shows where we bleed (through 31 games, outcome accuracy 15/31 = 48%):**
-- **Draw picks: 2/8 correct (25%)** — only BEL-EGY & NED-JPN hit; CIV, FRA, ENG, GHA, MEX all missed.
-- **Win picks: 13/23 correct (57%)** — MD2 win picks converting, and outcome-first approach lifting accuracy (3/4 on Jun 19–20 slate).
+**Our own data shows where we bleed (through 35 games, outcome accuracy 18/35 = 51%):**
+- **Draw picks: 2/8 correct (25%)** — only BEL-EGY & NED-JPN hit; KOR-CZE, CIV-ECU, FRA-SEN, ENG-CRO, GHA-PAN, MEX-KOR all missed.
+- **Win picks: 16/27 correct (59%)** — MD2 win picks converting steadily (GER, NED, JPN all hit Jun 20); outcome-first approach continues to lift accuracy.
 
 Draws have only a ~27% base rate and are the hardest outcome to call. **Predicting draws has been our single biggest unforced error.**
 
@@ -93,6 +93,14 @@ Grading the Jun 19–20 slate produced the **best single-slate score yet (+17, t
 - **True coin-flips (lines ±110) with mutual desperation are genuinely 50/50 — lower confidence, so play for the consolation floor with X-1, NOT X-0.** TUR -105 vs PAR was the slate's only miss. Both teams were desperate (TUR lost MD1, PAR lost 1-4) and the line was essentially even. An early Galarza stunner (2') and a smash-and-grab held despite Almirón's red card. The X-0 floor (Rule 2) only protects you when you are *confident in the winner* — in a coin-flip you might back the wrong side, and then an X-0 scores **0** while an X-1 still banks **1pt** when the opponent scores the modal 1. Proof: we predicted TUR 2-1 → got 1pt (PAR's 1 matched); a "tidy" 2-0 would have scored 0. So when the line says "coin flip" and both teams are all-in, **don't pretend you can pick the winner — predict X-1 (e.g. 2-1), keeping the loser-scores-1 consolation, and accept these are low-confidence plays whose realistic floor is 1pt, not 3.**
 - **Outcome-first North Star is the dominant driver.** SCO-MAR (flipped from draw to Morocco win → exact 🎯) was the signature call. BRA-HAI 3-0 exact proves v2.3/v2.7 margin-lift is calibrated for elite-vs-weak. Keep the discipline: back the favorite, lift the margin, take the zero.
 
+### v2.9 — X-0 Commitment Generalized & the "Toothless-vs-Threatening" Test (June 21)
+Grading Jun 20 (+14, GER-CIV exact) showed the X-0-vs-X-1 *judgment* is now the deciding skill — and on the three **X-1 withhold** calls (GER, NED, TUN) we split 2/3. The two correct withholds (GER, NED) and one wrong withhold (TUN softening) point to a single, cleaner rule than v2.8's host-only framing:
+- **Generalize the X-0 commitment from "hosts" to ANY clear favorite (≈ -180 or shorter) vs a toothless/weak attack.** TUN-JPN: Japan -187 thrashed a desperate, must-win Tunisia **0-4** (TUN-JPN order); we softened to 1-2 fearing they'd "commit forward," but a desperate underdog committing forward gets **picked off on the counter and blanked** — desperation ≠ they will score. The X-0 (0-2) was the 4pt floor; we banked 3. This is the same softening leak as CAN and USA. Stop fearing the weak side's goal when the favorite is clearly superior.
+- **The boundary — the "toothless-vs-threatening" test (withhold the X-0 only when BOTH: the opponent has a genuine, demonstrated attacking threat AND the favorite itself leaks).** GER-CIV is the model: Germany has no WC clean sheet in 7 (leaks) and CIV was organized + on a win streak + a real attack → we correctly took X-1 and nailed the 2-1 exact. NED-SWE likewise: Sweden attacks well, so X-1 → Sweden scored → 4pt. So: *toothless opponent → X-0; threatening opponent + leaky favorite → X-1.* Apply this test explicitly per fixture instead of a blanket rule.
+- **Reaffirm v2.4 (organized-debutant exception) — and DON'T over-lift the margin against bus-parkers.** ECU 0-0 CUW repeated ESP 0-0 CPV exactly: a bunkering debutant + hot keeper (Eloy Room, 15 saves) held a **-909** favorite scoreless — even though Curaçao had shipped 7 to Germany. A team that gets blown out by an elite attack can still bunker-and-hold a *modest* favorite. So vs a CPV/CUW-type low-block, back the favorite but keep the margin **tight (1-0)** and accept genuine draw variance — over-committing to a 2-0/3-0 here is the ECU-CUW error. _(Directly informs the URU-CPV pick: 1-0, not 2-0.)_
+- **Two axes — don't conflate them (the ECU-CUW correction).** The toothless-vs-threatening test sets the *scoreline* (X-0 vs X-1: will the opponent score?), driven by their **attack**. It does NOT set the *outcome* (will the favorite win?), driven by the opponent's **defense**. TUN and CUW were both toothless-attack → the rule calls for X-0 on both (we took it on ECU-CUW, but wrongly softened TUN to 1-2); TUN was open/desperate (routed 0-4 → the X-0 *would have* banked the 4pt floor we missed) while CUW bunkered behind a hot keeper (held 0-0 → the X-0 we took banked only the 1pt consolation). So the X-0 "4pt floor" is **conditional on the win** — against a proven low-block it can collapse to 1pt. Take the X-0, but rate the *outcome* as coin-flip-ish, not a lock, when the opponent is a bunker debutant. _(URU-CPV: the 1-0 scoreline is right; the win itself is closer to ~60/40 than the -200 line implies.)_
+- **Margin timidity remains the secondary leak (v2.3/v2.7).** NED 2-1 → 5-1: elite favorites keep routing. When the favorite is elite AND the opponent is not a bus-parker, lift the winning margin to 3+.
+
 ---
 
 ## Score-Maximizing Strategy
@@ -130,13 +138,13 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 3. 1-1 draw → floor is 0pts if actual is a multi-goal lopsided win; 1pt if one team scores 1
 4. 0-0 draw → nearly identical floor to 1-1 but with worse 6pt hit rate — never preferred
 
-### Current score baseline (as of 2026-06-20)
-- **72 pts from 31 graded matches** (38.7% efficiency vs 186pt max)
-- Exact hits (6pts each): **4 matches** (24/72 = 33% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI
-- Correct-outcome rate: **15/31 (48%)** — up from 44%; win picks 13/23 (57%), draw picks 2/8 (25%)
-- Average per match: **2.32 pts** (up from 2.04); target ≥ 3.0 pts/match
-- Losses to 0: still 6 (CAN, QAT, AUS, IRN, POR-COD, ENG-CRO) — no new zeros since Jun 17
-- **Jun 19–20 was the best slate: +17 from 4 matches (4.25 pts/match).** Two exacts (SCO-MAR, BRA-HAI), one 4pt host win (USA-AUS), one 1pt miss (TUR-PAR). The outcome-first North Star is working. The X-0 softening leak persists (USA 2-0 would have been exact at 2-0) → v2.8 commits fully to X-0 for hosts.
+### Current score baseline (as of 2026-06-21)
+- **86 pts from 35 graded matches** (41.0% efficiency vs 210pt max)
+- Exact hits (6pts each): **5 matches** (30/86 = 35% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV
+- Correct-outcome rate: **18/35 (51%)** — win picks 16/27 (59%), draw picks 2/8 (25%)
+- Average per match: **2.46 pts** (up from 2.32); target ≥ 3.0 pts/match
+- Losses to 0: still 6 (CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO) — no new zeros since Jun 17; the Jun 20 slate's worst was 1pt
+- **Jun 20 was a strong slate: +14 from 4 matches (3.5 pts/match), one exact (GER-CIV).** The three X-1 *withhold* calls decided it (ECU-CUW was a separate X-0 commitment — the CUW=0 read was right, though the pick still missed on outcome): two correct withholds (GER, NED → 6pt + 4pt) and one bad softening (TUN-JPN: predicted 1-2 vs a toothless side that blanked → 3pt, missed the 4pt floor) → v2.9 generalizes X-0 commitment to all clear favorites vs toothless sides.
 
 ---
 
@@ -175,6 +183,10 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 19 | SCO vs MAR | 0-1 → 0-1. 🎯 **EXACT HIT.** The outcome-first flip (1-1 draw → 0-1 Morocco win) was the best single call of the tournament. Saibari struck after 72 seconds. Back the favorite, not the draw. (→ North Star validated) |
 | Jun 19 | BRA vs HAI | 3-0 → 3-0. 🎯 **EXACT HIT.** v2.3 blowout ceiling + v2.7 margin lift + X-0 floor all converged perfectly. Cunha + Vinícius ×2. Elite attack vs beatable minnow with a real margin and a blank — model fully calibrated for this profile. |
 | Jun 20 | TUR vs PAR | 2-1 → 0-1. Miss. Galarza long-range stunner (2') for Paraguay; Almirón red (45') but they held despite 33 TUR shots. A -105 coin-flip with mutual desperation is genuinely unpredictable. (→ v2.8) |
+| Jun 20 | GER vs CIV | 2-1 → 2-1. 🎯 **EXACT HIT.** Undav brace off the bench (68', 90+4') after Kessié's opener. The deliberate X-1 withhold (Germany leaks → CIV scores) was exactly right — the "threatening opponent" half of the test. (→ v2.9) |
+| Jun 20 | ECU vs CUW | 2-0 → 0-0. Miss. A bunkering debutant + hot keeper (Eloy Room, 15 saves) held a -909 favorite scoreless — the ESP-CPV 0-0 pattern again. Don't over-lift the margin vs a low-block; CUW 0=0 saved 1pt. (→ v2.9 reaffirms v2.4) |
+| Jun 20 | NED vs SWE | 2-1 → 5-1. Win (4pts, SWE 1=1). X-1 withhold paid off (Sweden scored) but margin badly under-shot — elite favorites keep routing. Margin timidity persists. (→ v2.9/v2.7) |
+| Jun 20 | TUN vs JPN | 1-2 → 0-4. Win (3pts). Softened to X-1 fearing a must-win Tunisia would commit forward; they got picked off and **blanked** — the X-0 (0-2) was the 4pt floor. Clear fav vs toothless side → take the zero. (→ v2.9) |
 
 ---
 
