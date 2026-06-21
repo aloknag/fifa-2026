@@ -57,7 +57,7 @@ _Canonical predictions tracker, maintained locally (no Google Docs). **Last upda
 | Metric | Value |
 | :--- | :--- |
 | Graded predictions | 35 |
-| Correct outcome (W/D/L) | **18 of 35 (51%)** — MEX–RSA; USA–PRY; HAI–SCT; GER–CUW; NED–JPN; SWE; BEL–EGY; IRQ–NOR; ARG–ALG; UZB–COL; SUI–BIH; CAN–QAT; USA–AUS; SCO–MAR; BRA–HAI; **GER–CIV; NED–SWE; TUN–JPN** |
+| Correct outcome (W/D/L) | **18 of 35 (51%)** — MEX–RSA; USA–PRY; HAI–SCT; GER–CUW; NED–JPN; SWE–TUN; BEL–EGY; IRQ–NOR; ARG–ALG; UZB–COL; SUI–BIH; CAN–QAT; USA–AUS; SCO–MAR; BRA–HAI; **GER–CIV; NED–SWE; TUN–JPN** |
 | — by pick type | **Win picks 16/27 (59%) · Draw picks 2/8 (25%)** ← outcome-first approach lifting win-pick accuracy |
 | Exact scoreline | **5 of 35** (HAI 0-1 SCT 🎯; BEL 1-1 EGY 🎯; SCO 0-1 MAR 🎯; BRA 3-0 HAI 🎯; **GER 2-1 CIV 🎯**) |
 | **#1 priority** | **Outcome accuracy + smart X-0.** Back favorites; predict draws only when the draw is the single most likely result. Commit to the X-0 for clear favorites vs **toothless** sides; withhold it only when the opponent has a real attacking threat (v2.9). |
