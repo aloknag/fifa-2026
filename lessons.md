@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-21 — graded Jun 20 slate (**+14 pts**: GER-CIV exact 🎯, NED-SWE 4, TUN-JPN 3, ECU-CUW 1 → **86/210** from 35 graded). Outcome-first North Star again 3/4 (75%). The three X-1 *withhold* calls went 2/3 — right on GER & NED (withheld → opponent scored), wrong on TUN (softening). _(ECU-CUW was a separate X-0 commitment, not a withhold.)_ Added **v2.9** (generalize X-0 commitment to all clear favorites vs toothless sides; the "toothless-vs-threatening" test).
+**Last updated:** 2026-06-22 — graded Jun 21 slate (**+8 pts**: ESP-SAU 4, NZL-EGY 4, BEL-IRN 0, URU-CPV 0 → **94/234** from 39 graded). The X-0/X-1 floor logic is now solid (both correct-outcome picks banked the 4pt floor; v2.9 test worked both ways). The leak moved to the **outcome**: both misses were favorites we backed to WIN that drew (BEL 0-0 IRN, URU 2-2 CPV). Added **v2.10** (Wounded-Favorite / Serial-Drawer draw profile).
 
 ---
 
@@ -10,11 +10,11 @@ _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. R
 
 Getting the **result (W/D/L) right** is the whole game. Correct outcome = a **guaranteed 3 pts** floor and the only gateway to 4 and 6. Wrong outcome = a **ceiling of 1 pt** (usually 0). So flipping one outcome wrong→right is worth ≈ **+3 pts**; refining a scoreline is worth ≈ **+0.5–1**. Always fix the outcome first, then optimize the scoreline.
 
-**Our own data shows where we bleed (through 35 games, outcome accuracy 18/35 = 51%):**
+**Our own data shows where we bleed (through 39 games, outcome accuracy 20/39 = 51%):**
 - **Draw picks: 2/8 correct (25%)** — only BEL-EGY & NED-JPN hit; KOR-CZE, CIV-ECU, FRA-SEN, ENG-CRO, GHA-PAN, MEX-KOR all missed.
-- **Win picks: 16/27 correct (59%)** — MD2 win picks converting steadily (GER, NED, JPN all hit Jun 20); outcome-first approach continues to lift accuracy.
+- **Win picks: 18/31 correct (58%)** — MD2 win picks converting steadily; the misses cluster on one profile: wounded/wasteful favorites that get held to a draw (BEL, URU; see v2.10).
 
-Draws have only a ~27% base rate and are the hardest outcome to call. **Predicting draws has been our single biggest unforced error.**
+Draws have only a ~27% base rate and are the hardest outcome to call. **Over-predicting draws was our original error; the mirror error has now appeared — backing wounded favorites to win when the draw was live (v2.10). Both are outcome errors; neither is fixed by tweaking the scoreline.**
 
 ### The standing rules (apply in order)
 1. **Default = back the bookmaker favorite to WIN.** The moneyline is the best outcome predictor available. If a side is −150 or shorter, back it to win unless there's a concrete, verified reason not to (key absence, must-win desperation flipping the script, etc.).
@@ -101,6 +101,16 @@ Grading Jun 20 (+14, GER-CIV exact) showed the X-0-vs-X-1 *judgment* is now the 
 - **Two axes — don't conflate them (the ECU-CUW correction).** The toothless-vs-threatening test sets the *scoreline* (X-0 vs X-1: will the opponent score?), driven by their **attack**. It does NOT set the *outcome* (will the favorite win?), driven by the opponent's **defense**. TUN and CUW were both toothless-attack → the rule calls for X-0 on both (we took it on ECU-CUW, but wrongly softened TUN to 1-2); TUN was open/desperate (routed 0-4 → the X-0 *would have* banked the 4pt floor we missed) while CUW bunkered behind a hot keeper (held 0-0 → the X-0 we took banked only the 1pt consolation). So the X-0 "4pt floor" is **conditional on the win** — against a proven low-block it can collapse to 1pt. Take the X-0, but rate the *outcome* as coin-flip-ish, not a lock, when the opponent is a bunker debutant. _(URU-CPV: the 1-0 scoreline is right; the win itself is closer to ~60/40 than the -200 line implies.)_
 - **Margin timidity remains the secondary leak (v2.3/v2.7).** NED 2-1 → 5-1: elite favorites keep routing. When the favorite is elite AND the opponent is not a bus-parker, lift the winning margin to 3+.
 
+### v2.10 — The Wounded-Favorite / Serial-Drawer Draw Profile (June 22)
+Grading Jun 21 confirmed the scoreline floor is solved (both correct-outcome picks banked 4pts) and isolated the remaining leak as the **outcome**: both misses (BEL 0-0 IRN, URU 2-2 CPV) were favorites we backed to WIN that instead drew. v2.9 correctly warned the win is *not lockable* vs a bunker (it rated URU-CPV ~60/40) — but we still logged the win and took 0. The fix is to actually act on that downgrade. There is a recognizable profile where the draw is the live, often modal, outcome even for a market favorite:
+- **The Wounded Favorite.** A favorite missing a key attacker, or hit by a red card, vs an organized opponent with a hot keeper. Belgium: Doku out, Ngoy red (66'), Beiranvand 7 saves → 0-0 despite 23 shots. The line (-230) was stale to the absence; the goal threat was gutted. **When a favorite's attack is materially reduced (absence/red card) and the opponent is organized + keeper-strong, the draw is the single most likely outcome — predict 1-1, don't back the win.**
+- **The Serial Drawer.** An organized underdog that has *already held a strong team* is a proven draw machine, not a one-off — and is being systematically over-priced against. Cape Verde held Spain 0-0, then drew Uruguay 2-2 (and **scored twice** — so they are not even "toothless"; the X-0 read was doubly wrong). **Once a side has held one favorite, downgrade the next favorite they face toward a draw, and do NOT assume the X-0 against them.**
+- **The chronically-wasteful favorite.** Uruguay drew SAU 1-1 then CPV 2-2 — a "favorite" that doesn't finish is a draw risk every game. Weight recent conversion, not just the moneyline.
+- **Discipline guard (don't re-trigger the old error).** This is NOT a return to broad draw-leaning (draw picks remain 2/8 = 25%; CIV/FRA/ENG/GHA/MEX punished that). It is a *narrow, profile-gated* draw call: predict the draw ONLY when a concrete wound (key absence / red card / proven serial-holder / misfiring fav) is present. Absent that, keep backing the favorite to win (North Star Rule 1). The EV math: a 1-1 call on a true draw banks 3pts vs the 0 a backed-win takes; but a 1-1 on a game the favorite wins also risks 0–1pt, so only spend it when the wound is real.
+- **Objective market-gate (red-team refinement, Jun 22).** The narrative "wound" triggers above are subjective and risk hindsight bias. Add a hard, checkable gate: **only consider the draw when the bookmaker's no-vig draw probability is strictly above both teams' no-vig win probabilities — i.e., the draw is the single most likely outcome (per North Star Rule 2).** If the favorite is a clear modal outcome (e.g. NOR-SEN: NOR 45% vs draw 27%), DO NOT predict the draw no matter how "open" the game feels — back the favorite. The market is a better outcome predictor than our narrative. The wound triggers refine *within* games the market already prices as draw-live; they do not override a clear favorite.
+- **Variance caveat — don't over-fit to BEL.** Belgium's 0-0 was driven by a 66' red card, which is variance, not a repeatable signal. The durable lessons from this slate are the *Serial Drawer* (Cape Verde — a pattern across two games) and the *market-gate* (objective). Weight those; treat the red-card case as a one-off, not a reason to fear every elite favorite.
+- **Floor logic reaffirmed (v2.9 holds).** When you DO back the favorite to win: X-0 vs a leaky/open opponent that comes out to play (ESP 4-0 SAU ✓), X-1 vs an opponent with a demonstrated goal (NZL scored ✓). Both paid the 4pt floor this slate.
+
 ---
 
 ## Score-Maximizing Strategy
@@ -138,13 +148,13 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 3. 1-1 draw → floor is 0pts if actual is a multi-goal lopsided win; 1pt if one team scores 1
 4. 0-0 draw → nearly identical floor to 1-1 but with worse 6pt hit rate — never preferred
 
-### Current score baseline (as of 2026-06-21)
-- **86 pts from 35 graded matches** (41.0% efficiency vs 210pt max)
-- Exact hits (6pts each): **5 matches** (30/86 = 35% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV
-- Correct-outcome rate: **18/35 (51%)** — win picks 16/27 (59%), draw picks 2/8 (25%)
-- Average per match: **2.46 pts** (up from 2.32); target ≥ 3.0 pts/match
-- Losses to 0: still 6 (CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO) — no new zeros since Jun 17; the Jun 20 slate's worst was 1pt
-- **Jun 20 was a strong slate: +14 from 4 matches (3.5 pts/match), one exact (GER-CIV).** The three X-1 *withhold* calls decided it (ECU-CUW was a separate X-0 commitment — the CUW=0 read was right, though the pick still missed on outcome): two correct withholds (GER, NED → 6pt + 4pt) and one bad softening (TUN-JPN: predicted 1-2 vs a toothless side that blanked → 3pt, missed the 4pt floor) → v2.9 generalizes X-0 commitment to all clear favorites vs toothless sides.
+### Current score baseline (as of 2026-06-22)
+- **94 pts from 39 graded matches** (40.2% efficiency vs 234pt max)
+- Exact hits (6pts each): **5 matches** (30/94 = 32% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV
+- Correct-outcome rate: **20/39 (51%)** — win picks 18/31 (58%), draw picks 2/8 (25%)
+- Average per match: **2.41 pts** (down from 2.46 — two zeros this slate); target ≥ 3.0 pts/match
+- Losses to 0: now **8** (CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, **BEL-IRN, URU-CPV**) — the two new ones are both the Wounded-Favorite/Serial-Drawer profile (v2.10)
+- **Jun 21 was a modest slate: +8 from 4 matches (2.0 pts/match), no exact.** The floor logic was perfect — both correct outcomes hit the 4pt floor (ESP X-0 → SAU 0=0; NZL X-1 → NZL scored). Both zeros were favorites that drew (BEL, URU); calling either a draw banks 3pts → v2.10. **Standing: app shows Alok 5th at 95, leader 104 (gap 9, widened from 7). Floors keep pace; only exacts close the gap.**
 
 ---
 
@@ -187,6 +197,10 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 20 | ECU vs CUW | 2-0 → 0-0. Miss. A bunkering debutant + hot keeper (Eloy Room, 15 saves) held a -909 favorite scoreless — the ESP-CPV 0-0 pattern again. Don't over-lift the margin vs a low-block; CUW 0=0 saved 1pt. (→ v2.9 reaffirms v2.4) |
 | Jun 20 | NED vs SWE | 2-1 → 5-1. Win (4pts, SWE 1=1). X-1 withhold paid off (Sweden scored) but margin badly under-shot — elite favorites keep routing. Margin timidity persists. (→ v2.9/v2.7) |
 | Jun 20 | TUN vs JPN | 1-2 → 0-4. Win (3pts). Softened to X-1 fearing a must-win Tunisia would commit forward; they got picked off and **blanked** — the X-0 (0-2) was the 4pt floor. Clear fav vs toothless side → take the zero. (→ v2.9) |
+| Jun 21 | ESP vs SAU | 3-0 → 4-0. Win (4pts, SAU 0=0). X-0 paid off — restored elite attack vs a side that came out to play (not a bunker) → clean-sheet rout. v2.9 validated. Margin under by one. |
+| Jun 21 | BEL vs IRN | 2-1 → 0-0. Miss (0pts). Wounded favorite: Doku out + Ngoy red (66') + Beiranvand 7 saves → held despite 23 shots. A 1-1 call banks 3pts. Don't back a gutted attack to win vs an organized keeper-strong side. (→ v2.10) |
+| Jun 21 | URU vs CPV | 1-0 → 2-2. Miss (0pts). Cape Verde's 2nd straight draw (held ESP, drew URU) and they SCORED twice — a proven serial-drawer, not toothless. Wasteful Uruguay won't convert. Downgrade the next fav vs a proven holder. (→ v2.10) |
+| Jun 21 | NZL vs EGY | 1-2 → 1-3. Win (4pts, NZL 1=1). X-1 withhold paid off — NZL's real attack (2 vs Iran) scored, exactly as the v2.9 threatening test called. Egypt's class told. Margin under by one. |
 
 ---
 
