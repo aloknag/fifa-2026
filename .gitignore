@@ -5,3 +5,7 @@
 *~
 .DS_Store
 Thumbs.db
+
+# Claude Code local (personal) settings — never commit
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
