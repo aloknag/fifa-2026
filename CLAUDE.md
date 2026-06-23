@@ -68,7 +68,16 @@ Each run is self-contained. Steps:
    to the tracker applying the active model from `lessons.md`.
 5. **Update BOTH files in place** (refresh both timestamps) and notify Alok with a short summary.
 6. **Review** with human and get approval.
-7. **Commit changes and push** after approval and score status agreement. 
+7. **Commit changes and push** after approval and score status agreement.
+
+> ⚠️ **STANDING RULE — VALIDATE BEFORE ACCEPTING.** Listen to everyone, but do your own homework
+> before accepting any suggestion or correction — **this includes a red-team's or sub-agent's
+> "verified" factual claims, not just its opinions.** Treat a reviewer as an input, not an authority.
+> Independently spot-check its high-stakes claims (web-search facts against a reputable source;
+> re-check arithmetic by hand) before editing files or calling anything verified. When a review tells
+> you to *change* existing text, first confirm the new claim is actually truer than the old one — do
+> not "upgrade" accurate wording into an overstatement. (Origin: a red-team pass overstated a player
+> as "ruled out" when sources said "doubtful"; the original wording was correct.)
 
 ### Tools
 - Web research: `WebSearch` / web fetch for fixtures, odds, previews, injury news.
