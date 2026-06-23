@@ -40,8 +40,10 @@ explain the adjustment. On a confirming slate, log the validation and change not
 
 ### Phase 4 — Predict the next 24h
 1. Find every WC 2026 fixture in the next 24h (delegate to the **`find-schedules`** subagent, defined
-   at `.claude/agents/find_schedules/find_schedules.md`) and **verify each fixture's group** against an
-   official source.
+   at `.claude/agents/find_schedules/find_schedules.md`). The subagent is scoped to a single calendar
+   date, so when the 24h window crosses midnight in your declared timezone, **run it for each date the
+   window spans (typically today + tomorrow) and merge the results** — then **verify each fixture's
+   group** against an official source.
 2. **MANDATORY — Prior-form reference check (do this for BOTH teams, every match).** Pull how each
    team has performed *so far this tournament* and in recent relevant matches — this is a required
    input, not optional color:
@@ -93,14 +95,10 @@ to `CLAUDE.md`/this file — so the way we work improves, not only the model.
 - **Protect the grade→lesson loop from whipsaw.** The loop is the engine; the discipline is what keeps
   it from over-fitting itself into noise.
 
-## 3. Scoring rubric (canonical)
-| Points | Condition |
-| ---: | :--- |
-| **6** | Exact scoreline |
-| **4** | Correct outcome (W/D/L) + one team's goal count matches |
-| **3** | Correct outcome only |
-| **1** | Wrong outcome but one team's goal count matches |
-| **0** | Nothing matches |
+## 3. Scoring rubric
+The scoring table is **canonical in [`CLAUDE.md`](CLAUDE.md) §1** — read it there (6 = exact · 4 =
+correct outcome + one team's goal count · 3 = correct outcome only · 1 = wrong outcome + one goal
+count · 0 = nothing). Kept in one place to avoid the two copies drifting.
 
 ## 4. Daily success metrics (so "better" is measurable)
 Track the trend, not just the day: **pts/match** (target ≥ 3.0), **outcome-accuracy %**,
