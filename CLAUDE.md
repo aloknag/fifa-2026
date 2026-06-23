@@ -56,25 +56,28 @@ calibration model (full ledger lives in the tracker file):
 (Always read the tracker for the live version — the list above is a snapshot.)
 
 ## 4. Daily scan workflow (runs 8:00 AM via scheduled task)
-Each run is self-contained. Steps:
-1. **Read BOTH files** — `Alok_FIFA_2026_Predictions.md` (pending fixtures/predictions) and
-   `lessons.md` (the active calibration model to apply).
-2. **Grade results:** web-search the final scores of any fixtures now finished; fill the
-   "Actual Result" column in the tracker and mark Win / Miss / Win (wrong margin); update the scorecard.
-3. **Calibrate (`lessons.md`):** add a one-line takeaway per graded match to the lesson log; if a
-   systematic error appears across matches, add or revise a calibration version (v2.2, v2.3, …).
-4. **Scan the next 24-hour window:** find all WC 2026 fixtures in the coming 24h, pull odds + team
-   news (injuries, lineups), verify each fixture's group, and add a predicted scoreline + rationale
-   to the tracker applying the active model from `lessons.md`.
-5. **Update BOTH files in place** (refresh both timestamps) and notify Alok with a short summary.
-6. **Review** with human and get approval.
-7. **Commit changes and push** after approval and score status agreement. 
+
+> ⚠️ **The full workflow lives in [`workflow.md`](workflow.md) — read it and follow it. It is the
+> single source of truth for HOW we work; if anything here conflicts with it, `workflow.md` wins.**
+
+Each run is self-contained. In brief, `workflow.md` defines an 8-phase daily loop, each with a verify
+gate: **Orient → Grade → Learn/calibrate → Predict → Red-team/validate → Review → Ship → Reflect.**
+Non-negotiables it enforces:
+- **Prior-form reference check is MANDATORY** — before predicting any match, pull how BOTH teams have
+  performed so far this tournament (results, opponent quality, who scored, clean sheets, style). This
+  evidence is what drives the X-1 withhold (v2.9), serial-drawer (v2.10), and X-0 calls.
+- **Validate before accepting** — a reviewer/sub-agent is an input, not an authority; independently
+  re-verify its *factual* "verified" claims (web-search facts, re-check math by hand) before editing,
+  and confirm any suggested change is truer than the original.
+- **Anti-whipsaw** — bump a calibration version only on a pattern across ≥3 games, never a single slate.
+- **Review then ship** — no commit before Alok's approval; keep data vs process changes on separate
+  branches.
 
 ### Tools
-- Web research: `WebSearch` / web fetch for fixtures, odds, previews, injury news.
+- Web research: `WebSearch` / `WebFetch` for fixtures, odds, previews, injury news.
 - The Google Drive connector is **read/create-only** (cannot edit existing docs) — another reason the
   canonical tracker is the local markdown file.
-- Verify scores against at least one reputable source (ESPN, official FIFA, major sportsbook) before logging.
+- Verify scores against **≥2 reputable sources** (ESPN, official FIFA, major sportsbook) before logging (per `workflow.md` Phase 2).
 
 ### Output Style
 Output the absolute minimum tokens needed to convey the core point.
