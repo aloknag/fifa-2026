@@ -6,7 +6,7 @@
 
 ## 0. The goal & the two loops
 Maximize the pool score by getting better **every day**. "Better" runs on two nested loops, plus one
-stabilizer that stops them eating themselves:
+stabilizer that stops them from eating themselves:
 
 - **Inner loop — the model.** predict → grade → lesson → calibrate → predict better. Lives in
   `lessons.md`. Improves the *picks*.
