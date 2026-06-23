@@ -161,7 +161,7 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 - Correct-outcome rate: **24/43 (56%)** — win picks 22/35 (63%), draw picks 2/8 (25%)
 - Average per match: **2.67 pts** (up from 2.41 — the +21 slate lifted it); target ≥ 3.0 pts/match
 - Losses to 0: still **8** (no new zeros this slate) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV
-- **Jun 22 was the best slate of the tournament: +21 from 4 matches (5.25 pts/match), THREE exacts, 4/4 outcomes, no zeros.** Every recent rule fired (X-0 commitment FRA/ARG; X-1 withhold ALG = exact; market-gate NOR = win). The lone non-exact (NOR 3-2, 3pts) was margin timidity on an open game. **Standing: fresh app screenshot pending — +21 should have closed materially on the 104 leader (internal 115; app runs +1, exact gap to confirm at next check). Exacts, not just floors, are now closing the gap.**
+- **Jun 22 was the best slate of the tournament: +21 from 4 matches (5.25 pts/match), THREE exacts, 4/4 outcomes, no zeros.** Every recent rule fired (X-0 commitment FRA/ARG; X-1 withhold ALG = exact; market-gate NOR = win). The lone non-exact (NOR 3-2, 3pts) was margin timidity on an open game. **Standing (app Jun 23): Alok 2nd at 116 — leader Braiham 117, gap just 1 (3rd–5th bunched at 114). The +21 slate vaulted Alok from 5th (gap 9) to 2nd (gap 1); internal 115 vs app 116 confirms the +1 off-by-one. Exacts, not just floors, are now closing the gap — one exact takes the lead.**
 
 ---
 
