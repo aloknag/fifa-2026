@@ -21,8 +21,8 @@ stabilizer that stops them eating themselves:
 
 ### Phase 1 — Orient
 Read this file, then `Alok_FIFA_2026_Predictions.md` and `lessons.md` in full. Know before you act:
-the active model version, the pending fixtures, the current **#1 recurring error**, and the standing +
-gap to the leader.
+the active model version, the pending fixtures, the current **#1 recurring error**, and the standing
+and gap to the leader.
 **Verify:** you can state today's single biggest leak in one sentence.
 
 ### Phase 2 — Grade finished matches
@@ -39,8 +39,9 @@ explain the adjustment. On a confirming slate, log the validation and change not
 **Verify:** any new version cites ≥3 supporting games; you consciously resisted a single-slate whipsaw.
 
 ### Phase 4 — Predict the next 24h
-1. Find every WC 2026 fixture in the next 24h (delegate to the **`find-schedules`** subagent) and
-   **verify each fixture's group** against an official source.
+1. Find every WC 2026 fixture in the next 24h (delegate to the **`find-schedules`** subagent, defined
+   at `.claude/agents/find_schedules/find_schedules.md`) and **verify each fixture's group** against an
+   official source.
 2. **MANDATORY — Prior-form reference check (do this for BOTH teams, every match).** Pull how each
    team has performed *so far this tournament* and in recent relevant matches — this is a required
    input, not optional color:

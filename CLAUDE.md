@@ -74,10 +74,10 @@ Non-negotiables it enforces:
   branches.
 
 ### Tools
-- Web research: `WebSearch` / web fetch for fixtures, odds, previews, injury news.
+- Web research: `WebSearch` / `WebFetch` for fixtures, odds, previews, injury news.
 - The Google Drive connector is **read/create-only** (cannot edit existing docs) — another reason the
   canonical tracker is the local markdown file.
-- Verify scores against at least one reputable source (ESPN, official FIFA, major sportsbook) before logging.
+- Verify scores against **≥2 reputable sources** (ESPN, official FIFA, major sportsbook) before logging (per `workflow.md` Phase 2).
 
 ### Output Style
 Output the absolute minimum tokens needed to convey the core point.
