@@ -10,9 +10,9 @@ _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. R
 
 Getting the **result (W/D/L) right** is the whole game. Correct outcome = a **guaranteed 3 pts** floor and the only gateway to 4 and 6. Wrong outcome = a **ceiling of 1 pt** (usually 0). So flipping one outcome wrong→right is worth ≈ **+3 pts**; refining a scoreline is worth ≈ **+0.5–1**. Always fix the outcome first, then optimize the scoreline.
 
-**Our own data shows where we bleed (through 39 games, outcome accuracy 20/39 = 51%):**
+**Our own data shows where we bleed (through 43 games, outcome accuracy 24/43 = 56%):**
 - **Draw picks: 2/8 correct (25%)** — only BEL-EGY & NED-JPN hit; KOR-CZE, CIV-ECU, FRA-SEN, ENG-CRO, GHA-PAN, MEX-KOR all missed.
-- **Win picks: 18/31 correct (58%)** — MD2 win picks converting steadily; the misses cluster on one profile: wounded/wasteful favorites that get held to a draw (BEL, URU; see v2.10).
+- **Win picks: 22/35 correct (63%)** — MD2 win picks converting steadily; the misses cluster on one profile: wounded/wasteful favorites that get held to a draw (BEL, URU; see v2.10).
 
 Draws have only a ~27% base rate and are the hardest outcome to call. **Over-predicting draws was our original error; the mirror error has now appeared — backing wounded favorites to win when the draw was live (v2.10). Both are outcome errors; neither is fixed by tweaking the scoreline.**
 
