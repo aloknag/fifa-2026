@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-22 — graded Jun 21 slate (**+8 pts**: ESP-SAU 4, NZL-EGY 4, BEL-IRN 0, URU-CPV 0 → **94/234** from 39 graded). The X-0/X-1 floor logic is now solid (both correct-outcome picks banked the 4pt floor; v2.9 test worked both ways). The leak moved to the **outcome**: both misses were favorites we backed to WIN that drew (BEL 0-0 IRN, URU 2-2 CPV). Added **v2.10** (Wounded-Favorite / Serial-Drawer draw profile).
+**Last updated:** 2026-06-23 — graded Jun 22 slate (**+21 pts**, best of the tournament: FRA 3-0 IRQ ✓exact, ARG 2-0 AUT ✓exact, ALG 2-1 JOR ✓exact, NOR-SEN 3 → **115/258** from 43 graded). **A validation slate — no new version.** 4/4 outcomes, THREE exacts, no zeros. Every recent rule fired: X-0 commitment (FRA, ARG), the v2.9 X-1-withhold test (ALG — Jordan's demonstrated goal → withheld the zero → 2-1 exact), and the v2.10 objective market-gate (backed NOR's 45% modal win over the rejected 1-1 → won 3-2). The only points left on the table were the **NOR-SEN margin** (open mutual-chase game went 3-2). Discipline note observed: do NOT bump a version on a confirming slate — see the whipsaw warning below.
 
 ---
 
@@ -111,6 +111,13 @@ Grading Jun 21 confirmed the scoreline floor is solved (both correct-outcome pic
 - **Variance caveat — don't over-fit to BEL.** Belgium's 0-0 was driven by a 66' red card, which is variance, not a repeatable signal. The durable lessons from this slate are the *Serial Drawer* (Cape Verde — a pattern across two games) and the *market-gate* (objective). Weight those; treat the red-card case as a one-off, not a reason to fear every elite favorite.
 - **Floor logic reaffirmed (v2.9 holds).** When you DO back the favorite to win: X-0 vs a leaky/open opponent that comes out to play (ESP 4-0 SAU ✓), X-1 vs an opponent with a demonstrated goal (NZL scored ✓). Both paid the 4pt floor this slate.
 
+### Validation note — Jun 22 (Groups I & J MD2): the model is calibrated; hold it steady (NO new version)
+The best slate of the tournament (**+21, three exacts, 4/4 outcomes, no zeros**) was a clean confirmation of the existing model — not a signal to change it. The whole point of the discipline note below is that confirming slates must NOT trigger a version bump. What fired:
+- **X-0 commitment (v2.8/v2.9):** FRA 3-0 IRQ and ARG 2-0 AUT — clear elite-attacking favorites vs sides that came out to play; both kept the clean sheet → both **exact**. ARG also retired the *transitive-threat* fallacy for good: "Austria scored on Jordan ⇒ they'll score on Argentina" was rejected (different opponent, different back line) and Austria blanked. **Lesson: judge the opponent's threat against THIS favorite's defence, not against a common third team.**
+- **The X-1 withhold test (v2.9), exact:** ALG 2-1 JOR — Jordan had a *demonstrated* goal (vs Austria) and Algeria is not airtight → we withheld the zero → Jordan scored, Algeria won 2-1 → **exact**. This is the cleanest standalone proof the toothless-vs-threatening test is now a points-positive skill, not a coin flip.
+- **The objective market-gate (v2.10), vindicated:** NOR-SEN — no-vig had Norway the 45% modal outcome with the draw only third (27%), so the gate said *back the win, never the 1-1*. Norway won 3-2. The narrative "open game → draw" was correctly overridden by the market.
+- **Only residual leak — margin timidity on OPEN games.** NOR 2-1 → 3-2 banked just 3pts because we under-shot a mutual-chase game on BOTH sides (Senegal must-win + Norway's Haaland). This is the *same* timidity logged since GER 7-1 / SWE 5-1, now narrowed to its last hiding place: when the market prices an open, both-teams-score game (BTTS + Over), lift the *winning* margin to 3 and keep the opponent on 1–2 (e.g. 3-1 / 3-2), don't default to 2-1.
+
 ---
 
 ## Score-Maximizing Strategy
@@ -148,13 +155,13 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 3. 1-1 draw → floor is 0pts if actual is a multi-goal lopsided win; 1pt if one team scores 1
 4. 0-0 draw → nearly identical floor to 1-1 but with worse 6pt hit rate — never preferred
 
-### Current score baseline (as of 2026-06-22)
-- **94 pts from 39 graded matches** (40.2% efficiency vs 234pt max)
-- Exact hits (6pts each): **5 matches** (30/94 = 32% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV
-- Correct-outcome rate: **20/39 (51%)** — win picks 18/31 (58%), draw picks 2/8 (25%)
-- Average per match: **2.41 pts** (down from 2.46 — two zeros this slate); target ≥ 3.0 pts/match
-- Losses to 0: now **8** (CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, **BEL-IRN, URU-CPV**) — the two new ones are both the Wounded-Favorite/Serial-Drawer profile (v2.10)
-- **Jun 21 was a modest slate: +8 from 4 matches (2.0 pts/match), no exact.** The floor logic was perfect — both correct outcomes hit the 4pt floor (ESP X-0 → SAU 0=0; NZL X-1 → NZL scored). Both zeros were favorites that drew (BEL, URU); calling either a draw banks 3pts → v2.10. **Standing: app shows Alok 5th at 95, leader 104 (gap 9, widened from 7). Floors keep pace; only exacts close the gap.**
+### Current score baseline (as of 2026-06-23)
+- **115 pts from 43 graded matches** (44.6% efficiency vs 258pt max — up from 40.2%)
+- Exact hits (6pts each): **8 matches** (48/115 = 42% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV, **FRA-IRQ, ARG-AUT, ALG-JOR**
+- Correct-outcome rate: **24/43 (56%)** — win picks 22/35 (63%), draw picks 2/8 (25%)
+- Average per match: **2.67 pts** (up from 2.41 — the +21 slate lifted it); target ≥ 3.0 pts/match
+- Losses to 0: still **8** (no new zeros this slate) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV
+- **Jun 22 was the best slate of the tournament: +21 from 4 matches (5.25 pts/match), THREE exacts, 4/4 outcomes, no zeros.** Every recent rule fired (X-0 commitment FRA/ARG; X-1 withhold ALG = exact; market-gate NOR = win). The lone non-exact (NOR 3-2, 3pts) was margin timidity on an open game. **Standing: fresh app screenshot pending — +21 should have closed materially on the 104 leader (internal 115; app runs +1, exact gap to confirm at next check). Exacts, not just floors, are now closing the gap.**
 
 ---
 
@@ -201,6 +208,10 @@ When outcome confidence is low, rank predictions by their worst-case floor, not 
 | Jun 21 | BEL vs IRN | 2-1 → 0-0. Miss (0pts). Wounded favorite: Doku out + Ngoy red (66') + Beiranvand 7 saves → held despite 23 shots. A 1-1 call banks 3pts. Don't back a gutted attack to win vs an organized keeper-strong side. (→ v2.10) |
 | Jun 21 | URU vs CPV | 1-0 → 2-2. Miss (0pts). Cape Verde's 2nd straight draw (held ESP, drew URU) and they SCORED twice — a proven serial-drawer, not toothless. Wasteful Uruguay won't convert. Downgrade the next fav vs a proven holder. (→ v2.10) |
 | Jun 21 | NZL vs EGY | 1-2 → 1-3. Win (4pts, NZL 1=1). X-1 withhold paid off — NZL's real attack (2 vs Iran) scored, exactly as the v2.9 threatening test called. Egypt's class told. Margin under by one. |
+| Jun 22 | FRA vs IRQ | 3-0 → 3-0. 🎯 **EXACT.** X-0 commitment + blowout margin on an elite attack vs a leaky weak side. The buried-not-bunkered read (Iraq shipped 4 to Norway) was right. Model fully calibrated for this profile. |
+| Jun 22 | ARG vs AUT | 2-0 → 2-0. 🎯 **EXACT.** Messi both goals (outright WC record, 18). Killed the *transitive-threat* fallacy: Austria scoring on Jordan ≠ scoring on Argentina's back line → took the X-0, Austria blanked. Judge threat vs THIS defence. |
+| Jun 22 | ALG vs JOR | 2-1 → 2-1. 🎯 **EXACT.** The signature v2.9 proof: Jordan had a demonstrated goal (vs Austria) + Algeria not airtight → withheld the zero → JOR scored, ALG won 2-1. The X-1 withhold is now a points-positive skill. |
+| Jun 22 | NOR vs SEN | 2-1 → 3-2. Win (3pts). Market-gate vindicated (backed NOR's 45% modal win over the rejected 1-1; NOT a draw). But under-shot an open mutual-chase game both ways — margin timidity's last hiding place: lift the winner to 3 on BTTS/Over games. |
 
 ---
 
