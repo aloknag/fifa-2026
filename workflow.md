@@ -61,8 +61,25 @@ explain the adjustment. On a confirming slate, log the validation and change not
 4. Apply the model from `lessons.md`: **North Star first — call the outcome (W/D/L)**, then pick the
    score-maximizing scoreline (never 0-0; X-0 floor for clean-sheet favorites; common scorelines for
    exact hits; lift margins per v2.7).
+5. **State a points target per pick (MANDATORY, per Alok).** Alongside the scoreline, predict the
+   points the pick is playing for, on the scoring rubric (**canonical in [`CLAUDE.md`](CLAUDE.md) §1**;
+   the tiers are the discrete set **0 / 1 / 3 / 4 / 6** — don't duplicate the full table here):
+   - **aim** — the exact-hit ceiling, **6**. We always commit to one scoreline and play for the exact
+     (per Alok's standing goal: aim for 6 on every game), so `aim` is a constant by design — kept to
+     signal we're hunting the exact, not settling for a floor.
+   - **likely** — the honest, EV-anchored expected tier given confidence — NOT the optimistic read; a
+     low-confidence pick whose realistic floor is 1pt must say so. State it as one tier or a set of
+     discrete tiers (e.g. "4", "3", or **"1 or 3"** — never a range like "1–3", since there is no
+     2- or 5-point tier).
+   Format in the tracker row: `🎯 Pts — aim 6 (the exact) · likely M (why)`. Also give a **slate total**
+   as a **low–high range**: sum each pick's *lowest* `likely` tier for the floor and its *highest* for
+   the ceiling (a single-tier `likely` contributes the same value to both ends; a set like "1 or 3"
+   contributes 1 to the floor and 3 to the ceiling). Optionally note the all-exacts ceiling (6 × games).
+   Stating this forces the EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable
+   against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
-*before* the scoreline, (c) a verified group label.
+*before* the scoreline, (c) a verified group label, (d) an explicit points target (aim + likely) and a
+slate-total expectation.
 
 ### Phase 5 — Red-team / self-verify (validate before accepting)
 Run an adversarial pass over your own grades and picks (a sub-agent red-team is encouraged for full
