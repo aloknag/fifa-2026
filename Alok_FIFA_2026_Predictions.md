@@ -90,7 +90,7 @@ _Canonical predictions tracker, maintained locally (no Google Docs). **Last upda
 | :--- | :--- |
 | Graded predictions | 53 |
 | Correct outcome (W/D/L) | **31 of 53 (58%)** — …+Jun 23 POR–UZB, COL–COD, CRO–PAN; **+Jun 24 BIH–QAT, SCO–BRA, MAR–HAI, CZE–MEX** (missed: SUI–CAN draw→SUI won; RSA–KOR upset) |
-| — by pick type | **Win picks 29/44 (66%) · Draw picks 2/9 (22%)** ← win-pick accuracy steady ~65%; the lone draw pick (SUI-CAN Rule 5) missed the outcome but banked its floor |
+| — by pick type | **Win picks 29/44 (66%) · Draw picks 2/9 (22%)** ← win-pick accuracy steady ~65%; the slate's only draw pick (SUI-CAN, Rule 5; 9 draw picks total) missed the outcome but banked its floor |
 | Exact scoreline | **8 of 53** (HAI 0-1 SCT 🎯; BEL 1-1 EGY 🎯; SCO 0-1 MAR 🎯; BRA 3-0 HAI 🎯; GER 2-1 CIV 🎯; FRA 3-0 IRQ 🎯; ARG 2-0 AUT 🎯; ALG 2-1 JOR 🎯) — **none Jun 23–24 (the dry spell on exacts is the gap-closing problem)** |
 | **#1 priority** | **Convert correct outcomes into exacts — the exact well has been dry for two slates** (0 exacts across Jun 23–24 despite 8/12 outcomes right). Floors are solid (X-0 paid on BRA, CRO); the gap to 1st only closes with 6s. Watch the new MD3 tails below. |
 | **Total score** | **140 / 318** (…126 + Jun 24: 3+1+4+3+0+3 = **+14**) |
