@@ -62,14 +62,17 @@ explain the adjustment. On a confirming slate, log the validation and change not
    score-maximizing scoreline (never 0-0; X-0 floor for clean-sheet favorites; common scorelines for
    exact hits; lift margins per v2.7).
 5. **State a points target per pick (MANDATORY, per Alok).** Alongside the scoreline, predict the
-   points the pick is playing for, using the rubric tiers (6/4/3/1/0):
-   - **aim** — the target if it lands as predicted (6 for an exact; the realistic best case).
-   - **likely** — the honest expected tier given confidence (a single tier or a range, e.g. "4",
-     "3", "1–3"). This is the EV-anchored read, not the optimistic one — a low-confidence pick whose
-     realistic floor is 1pt must say so.
-   Format in the tracker row: `🎯 Pts — aim N (why) · likely M (why)`. Also give a **slate total**:
-   the realistic expected sum and the aim-high sum if the exacts hit. Stating the target forces the
-   EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable against the result.
+   points the pick is playing for, on the scoring rubric (**canonical in [`CLAUDE.md`](CLAUDE.md) §3** —
+   don't restate the tiers here):
+   - **aim** — the exact-hit ceiling, **6**. We always commit to one scoreline and play for the exact
+     (per Alok's standing goal: aim for 6 on every game), so `aim` is a constant by design — kept to
+     signal we're hunting the exact, not settling for a floor.
+   - **likely** — the honest, EV-anchored expected tier given confidence (a single tier or a range,
+     e.g. "4", "3", "1–3") — NOT the optimistic read; a low-confidence pick whose realistic floor is
+     1pt must say so.
+   Format in the tracker row: `🎯 Pts — aim 6 (the exact) · likely M (why)`. Also give a **slate total**:
+   the realistic expected sum (the sum of the *likely* tiers) plus the all-exacts ceiling. Stating both
+   forces the EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
 *before* the scoreline, (c) a verified group label, (d) an explicit points target (aim + likely) and a
 slate-total expectation.
