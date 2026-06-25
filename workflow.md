@@ -61,8 +61,18 @@ explain the adjustment. On a confirming slate, log the validation and change not
 4. Apply the model from `lessons.md`: **North Star first — call the outcome (W/D/L)**, then pick the
    score-maximizing scoreline (never 0-0; X-0 floor for clean-sheet favorites; common scorelines for
    exact hits; lift margins per v2.7).
+5. **State a points target per pick (MANDATORY, per Alok).** Alongside the scoreline, predict the
+   points the pick is playing for, using the rubric tiers (6/4/3/1/0):
+   - **aim** — the target if it lands as predicted (6 for an exact; the realistic best case).
+   - **likely** — the honest expected tier given confidence (a single tier or a range, e.g. "4",
+     "3", "1–3"). This is the EV-anchored read, not the optimistic one — a low-confidence pick whose
+     realistic floor is 1pt must say so.
+   Format in the tracker row: `🎯 Pts — aim N (why) · likely M (why)`. Also give a **slate total**:
+   the realistic expected sum and the aim-high sum if the exacts hit. Stating the target forces the
+   EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
-*before* the scoreline, (c) a verified group label.
+*before* the scoreline, (c) a verified group label, (d) an explicit points target (aim + likely) and a
+slate-total expectation.
 
 ### Phase 5 — Red-team / self-verify (validate before accepting)
 Run an adversarial pass over your own grades and picks (a sub-agent red-team is encouraged for full
