@@ -71,9 +71,12 @@ explain the adjustment. On a confirming slate, log the validation and change not
      low-confidence pick whose realistic floor is 1pt must say so. State it as one tier or a set of
      discrete tiers (e.g. "4", "3", or **"1 or 3"** — never a range like "1–3", since there is no
      2- or 5-point tier).
-   Format in the tracker row: `🎯 Pts — aim 6 (the exact) · likely M (why)`. Also give a **slate total**:
-   the realistic expected sum (the sum of the *likely* tiers) plus the all-exacts ceiling. Stating both
-   forces the EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable against the result.
+   Format in the tracker row: `🎯 Pts — aim 6 (the exact) · likely M (why)`. Also give a **slate total**
+   as a **low–high range**: sum each pick's *lowest* `likely` tier for the floor and its *highest* for
+   the ceiling (a single-tier `likely` contributes the same value to both ends; a set like "1 or 3"
+   contributes 1 to the floor and 3 to the ceiling). Optionally note the all-exacts ceiling (6 × games).
+   Stating this forces the EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable
+   against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
 *before* the scoreline, (c) a verified group label, (d) an explicit points target (aim + likely) and a
 slate-total expectation.
