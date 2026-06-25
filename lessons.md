@@ -2,7 +2,13 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-24 — graded Jun 23 slate (**+11 pts**, no zeros but only 2.75 pts/match: POR 5-0 UZB = 3, COL 1-0 COD = 3, CRO 1-0 PAN = 4, ENG 0-0 GHA = 1 → **126/282** from 47 graded). **NEW VERSION v2.11** — the X-1 withhold misfired a 3rd time (TUN-JPN, now POR-UZB & COL-COD): every time we withheld the clean sheet against a clear/heavy favorite because the weak opponent had a "demonstrated goal," the opponent was BLANKED. COL 1-0 was the exact we listed as our own alt. **Fix: heavy favorite (-200 or shorter, i.e. ≤ -200) → take the X-0 regardless of the opponent's prior goal; reserve the X-1 withhold for moderate (> -200), genuinely-leaky favorites.** The one pick that worked — CRO PAN (predicted 2-0 / actual 1-0, X-0 banked 4pts) — shows the X-0 commitment paying off (a toothless-opponent X-0 per v2.9; Croatia itself was only a moderate -182). ENG-GHA 0-0 = the recurring organized-low-block tail (ESP-CPV/ECU-CUW) — logged, no version (don't whipsaw into draw-leaning). Also added **Rule 5** to Score-Maximizing (per Alok): on a *true coin-flip* with no >50% side, predict **1-1** to maximize EV (modal score → 6, 3pt on any draw, 1pt on any decisive game where a team scores exactly 1) — a wider payout range than a one-sided pick whose 6/4/3 all hinge on the side you can't confidently call. _(Prior: Jun 22 was a +21 validation slate — three exacts, 4/4 outcomes, no version.)_
+**Last updated:** 2026-06-25 — graded Jun 24 slate (**+14 pts**, 4/6 outcomes, no exacts, one zero: BIH 3-1 QAT = 3, SUI 2-1 CAN = 1, BRA 3-0 SCO = 4, MAR 4-2 HAI = 3, RSA 1-0 KOR = 0, MEX 3-0 CZE = 3 → **140/318** from 53 graded). **No new version** — solid slate, but two MD3 tails to weight: (1) **stakes-asymmetry upset** (RSA 1-0 KOR — a fav needing only a draw turned passive and lost to a must-win underdog), and (2) **eliminated-team X-0 breaks** (QAT 3-1, HAI 4-2 — already-out sides played free and scored through our clean sheets). Both single/double instances → yellow flags, not a ≥3 pattern, no bump (anti-whipsaw). **Rule 5 validated** on first use (SUI-CAN 1-1 banked 1pt where a one-sided pick scored 0). The exact well is dry (0 across Jun 23–24) — converting floors to 6s remains the gap-closer. _(Prior: 2026-06-24 — graded Jun 23 +11; introduced v2.11 + Rule 5.)_
+
+<details><summary>Prior header (v2.11 introduction, 2026-06-24)</summary>
+
+graded Jun 23 slate (**+11 pts**, no zeros but only 2.75 pts/match: POR 5-0 UZB = 3, COL 1-0 COD = 3, CRO 1-0 PAN = 4, ENG 0-0 GHA = 1 → **126/282** from 47 graded). **NEW VERSION v2.11** — the X-1 withhold misfired a 3rd time (TUN-JPN, now POR-UZB & COL-COD): every time we withheld the clean sheet against a clear/heavy favorite because the weak opponent had a "demonstrated goal," the opponent was BLANKED. COL 1-0 was the exact we listed as our own alt. **Fix: heavy favorite (-200 or shorter, i.e. ≤ -200) → take the X-0 regardless of the opponent's prior goal; reserve the X-1 withhold for moderate (> -200), genuinely-leaky favorites.** The one pick that worked — CRO PAN (predicted 2-0 / actual 1-0, X-0 banked 4pts) — shows the X-0 commitment paying off (a toothless-opponent X-0 per v2.9; Croatia itself was only a moderate -182). ENG-GHA 0-0 = the recurring organized-low-block tail (ESP-CPV/ECU-CUW) — logged, no version (don't whipsaw into draw-leaning). Also added **Rule 5** to Score-Maximizing (per Alok): on a *true coin-flip* with no >50% side, predict **1-1** to maximize EV (modal score → 6, 3pt on any draw, 1pt on any decisive game where a team scores exactly 1) — a wider payout range than a one-sided pick whose 6/4/3 all hinge on the side you can't confidently call. _(Prior: Jun 22 was a +21 validation slate — three exacts, 4/4 outcomes, no version.)_
+
+</details>
 
 ---
 
@@ -172,13 +178,13 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 - **Refines v2.8:** v2.8 said "use X-1 not X-0 in coin-flips" — go one further to **1-1** when the draw bucket is elevated (mutual-advance / two-organized-defenses), because 1-1 adds the 3pt-on-any-draw that an X-1 lacks.
 - _Worked example: SUI-CAN Jun 24 — SUI +110 / draw +225 / CAN +250 (no >50% side) + both qualify on a draw, Canada at home → 1-1 over the one-sided 1-0._
 
-### Current score baseline (as of 2026-06-24)
-- **126 pts from 47 graded matches** (44.7% efficiency vs 282pt max)
-- Exact hits (6pts each): **8 matches** (48/126 = 38% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV, FRA-IRQ, ARG-AUT, ALG-JOR _(no new exacts Jun 23)_
-- Correct-outcome rate: **27/47 (57%)** — win picks 25/39 (64%), draw picks 2/8 (25%)
-- Average per match: **2.68 pts**; target ≥ 3.0 pts/match
-- Losses to 0: still **8** (no new zeros this slate — worst Jun 23 was 1pt) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV
-- **Jun 23 (+11, no zeros) exposed the leak that v2.11 fixes:** we banked the floor everywhere but converted nothing to an exact because the **prior X-1-withhold behavior misfired twice** — POR-UZB (2-0 was the 4pt floor) and COL-COD (1-0 was the exact). The model template that worked was CRO PAN (predicted 2-0, X-0 → actual 1-0, 4pts). **Standing (app Jun 24): Alok 3rd at 127 — leader Ricardo 129, Braiham 128; gap to 1st just 2, field tight (4th/5th at 126).** Jun 23's +11 was matched by the leaders → slipped 2nd→3rd. **The lever to retake the lead is converting the X-0 floors into exacts (v2.11) — stop softening the clean sheet on clear favorites.**
+### Current score baseline (as of 2026-06-25)
+- **140 pts from 53 graded matches** (44.0% efficiency vs 318pt max)
+- Exact hits (6pts each): **8 matches** (48/140 = 34% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV, FRA-IRQ, ARG-AUT, ALG-JOR _(no new exacts Jun 23–24 — a two-slate dry spell)_
+- Correct-outcome rate: **31/53 (58%)** — win picks 29/44 (66%), draw picks 2/9 (22%)
+- Average per match: **2.64 pts**; target ≥ 3.0 pts/match
+- Losses to 0: **9** (+1 Jun 24: RSA-KOR upset) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV, RSA-KOR
+- **Jun 24 (+14, 4/6 outcomes) was a fine slate held back by zero exacts and one zero.** X-0 paid where the opponent bunkered (BRA 0-3 SCO = 4) but broke where an eliminated side played free (QAT 3-1, HAI 4-2). The zero was RSA 1-0 KOR — a stakes-asymmetry upset (KOR needed only a draw). Rule 5 validated (SUI-CAN 1-1 = 1pt vs the 0 a one-sided pick would've taken). **Standing: last app reading Jun 24 had Alok 3rd at 127 (internal 126; leader 129). After +14 internal is now 140 → app ~141; no fresh screenshot yet, so the live gap is unconfirmed.** The lever to retake the lead is unchanged: **convert floors into exacts** — the well has been dry two slates running.
 
 ---
 
@@ -233,6 +239,12 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 | Jun 23 | COL vs COD | 2-1 → 1-0. Win (3pts). Muñoz 76'. The X-1 withhold cost the EXACT — our own alt (1-0) was the 6. COD's goal vs Portugal didn't carry vs a tighter defense. Clear fav → take the X-0. (→ v2.11) |
 | Jun 23 | CRO vs PAN | 2-0 → 1-0. Win (4pts, PAN 0=0). Budimir sub winner; Modrić's 200th cap. Took the X-0 vs a toothless side and banked the floor — the template that worked. Margin one too high for the exact. (✓ v2.11) |
 | Jun 23 | ENG vs GHA | 2-0 → 0-0. Miss (1pt, GHA 0=0). A disciplined Ghana low-block held a -450 England scoreless (bar + off-the-line clearance) — the ESP-CPV / ECU-CUW bunker tail. Variance (England nearly won); don't over-react into draw-leaning. (no version) |
+| Jun 24 | BIH vs QAT | 2-0 → 3-1. Win (3pts). BIH won but the X-0 broke — an eliminated Qatar came out and scored. Eliminated-but-free ≠ toothless. (tail) |
+| Jun 24 | SUI vs CAN | 1-1 → 2-1. Miss (1pt, CAN 1=1). **Rule 5 validated:** the slight fav won, draw missed, but 1-1 banked 1pt where the one-sided SUI 1-0 would've scored 0. Keep Rule 5 for true pickems. |
+| Jun 24 | SCO vs BRA | 0-1 → 0-3. Win (4pts, SCO 0=0). 🟢 X-0 paid — Scotland bunkered and blanked exactly as called; Vini 7'. Margin under by 2 (tight-vs-bunker cost the exact). |
+| Jun 24 | MAR vs HAI | 2-0 → 4-2. Win (3pts). X-0 broke again — eliminated Haiti played free and scored twice. Same tail as QAT same day. Margin also under. |
+| Jun 24 | RSA vs KOR | 0-1 KOR → 1-0 RSA. **Miss (0pt) — stakes-asymmetry upset.** KOR (-155) needed only a draw, played passive, lost to must-win RSA and got eliminated. A fav playing not-to-lose vs a desperate underdog is an upset risk (cf. AUS-TUR). (tail) |
+| Jun 24 | CZE vs MEX | 1-2 → 0-3. Win (3pts). Rotated host still won + clean sheet; the X-1 withhold cost 1pt (CZE blanked → 2-0 was the 4pt floor). |
 
 ---
 
