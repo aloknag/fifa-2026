@@ -191,7 +191,7 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 - Exact hits (6pts each): **10 matches** (60/155 = 39% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV, FRA-IRQ, ARG-AUT, ALG-JOR, **CUW-CIV, TUN-NED** _(drought broken: 2 on Jun 25)_
 - Correct-outcome rate: **33/59 (56%)** — win picks 31/49 (63%), draw picks 2/10 (20%)
 - Average per match: **2.63 pts**; target ≥ 3.0 pts/match
-- Losses to 0: **10** (+1 Jun 25: TUR 3-2 USA dead-rubber) — …RSA-KOR, **TUR-USA**
+- Losses to 0: **10** (+1 Jun 25: TUR 3-2 USA dead-rubber) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV, RSA-KOR, **TUR-USA**
 - **Jun 25 (+15) split cleanly: the 2 clear-favorite games were EXACTS (CIV, NED); the 4 motivation-mismatch games were all OUTCOME misses** (ECU-GER upset, JPN-SWE draw, PRY-AUS bunker-draw, TUR-USA dead-rubber). The scoreline engine is sharp; the leak is now squarely the **outcome on unmotivated-favorite games → v2.12.** **Standing (last app reading Jun 25): Alok 4th at 141 (internal 140, +1 off-by-one).** After +15 internal is **155 → app ~156**; no fresh screenshot yet. The gap-closer is no longer "hunt exacts" (we did — 2 of them) but **stop donating outcomes on motivation-mismatch games.**
 
 ---
