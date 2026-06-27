@@ -2,7 +2,7 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-27 — graded Jun 26 slate (**+12 pts**: NOR 1-4 FRA = 4, SEN 5-0 IRQ = 3, CPV 0-0 KSA = 1, URU 0-1 ESP = 3, EGY 1-1 IRN = 0 (not submitted), NZL 1-5 BEL = 0 [NOT submitted; model value 4] → **166/390** from 65 graded). **v2.12 EXTENSION (Jun 26): the "content favorite" (needs only a draw), not just the fully-indifferent one, leans to a draw.** CPV-KSA 0-0 + EGY-IRN 1-1 (both content favorites that only needed a draw) drew as flagged (3rd content-draw with JPN-SWE) — BUT the two *elite* content-favorites still won (FRA 4-1, ESP 1-0). So: **predict the 1-1 for a content/needs-only-a-draw favorite when it's non-elite or facing an organized low-block; keep backing only genuinely elite ones.** Acting on the flag (drawing it) is the points-positive move. **⚠️ Group stage NOT done (verified on Pollaya): Groups J/K/L play MD3 on Jun 28 — predict those 6 group games next (tiered scoring); R32 follows. EGY-IRN was also un-submitted (like NZL-BEL) → Jun 26 actual +11. Standing (app Jun 27): Alok 4th at 169 (internal 166, ~+3 off-by-one — the NOR-FRA correction fixed the apparent drift); leader Ricardo 179, gap 10; tight 3rd–5th cluster.** _(Prior: 2026-06-26 — graded Jun 25 +15; introduced v2.12.)_
+**Last updated:** 2026-06-27 — graded Jun 26 slate (**+11 pts**: NOR 1-4 FRA = 4, SEN 5-0 IRQ = 3, CPV 0-0 KSA = 1, URU 0-1 ESP = 3, EGY 1-1 IRN = 0 (not submitted), NZL 1-5 BEL = 0 [NOT submitted; model value 4] → **166/390** from 65 graded). **v2.12 EXTENSION (Jun 26): the "content favorite" (needs only a draw), not just the fully-indifferent one, leans to a draw.** CPV-KSA 0-0 + EGY-IRN 1-1 (both content favorites that only needed a draw) drew as flagged (3rd content-draw with JPN-SWE) — BUT the two *elite* content-favorites still won (FRA 4-1, ESP 1-0). So: **predict the 1-1 for a content/needs-only-a-draw favorite when it's non-elite or facing an organized low-block; keep backing only genuinely elite ones.** Acting on the flag (drawing it) is the points-positive move. **⚠️ Group stage NOT done (verified on Pollaya): Groups J/K/L play MD3 on Jun 28 — predict those 6 group games next (tiered scoring); R32 follows. EGY-IRN was also un-submitted (like NZL-BEL) → Jun 26 actual +11. Standing (app Jun 27): Alok 4th at 169 (internal 166, ~+3 off-by-one — the NOR-FRA correction fixed the apparent drift); leader Ricardo 179, gap 10; tight 3rd–5th cluster.** _(Prior: 2026-06-26 — graded Jun 25 +15; introduced v2.12.)_
 
 <details><summary>Prior header (v2.12 introduction, 2026-06-26)</summary>
 
@@ -194,7 +194,7 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 - _Worked example: SUI-CAN Jun 24 — SUI +110 / draw +225 / CAN +250 (no >50% side) + both qualify on a draw, Canada at home → 1-1 over the one-sided 1-0._
 
 ### Current score baseline (as of 2026-06-27 — group stage ongoing (J/K/L MD3 Jun 28))
-- **167 pts from 65 graded matches** (42.8% efficiency vs 390pt max)
+- **166 pts from 65 graded matches** (42.6% efficiency vs 390pt max)
 - Exact hits (6pts each): **10 matches** — …**CUW-CIV, TUN-NED** _(none Jun 26)_
 - Correct-outcome rate: **37/65 (57%)** — win picks 35/55 (64%), draw picks 2/10 (20%) _(Jun 26 model 4/6)_
 - Average per match: **2.57 pts**; target ≥ 3.0 pts/match
