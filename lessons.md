@@ -2,7 +2,13 @@
 
 _The evolving model behind the predictions in `Alok_FIFA_2026_Predictions.md`. Read both files together. Each daily scan reviews graded results and updates this file when a systematic error appears (bump a version, explain the adjustment)._
 
-**Last updated:** 2026-06-26 — graded Jun 25 slate (**+15 pts**: CUW 0-2 CIV 🎯6, ECU 2-1 GER 1, JPN 1-1 SWE 1, TUN 1-3 NED 🎯6, PRY 0-0 AUS 1, TUR 3-2 USA 0 → **155/354** from 59 graded). **NEW VERSION v2.12 — the Stakes-Asymmetry / Unmotivated-Favorite Override.** The exact drought broke (CIV X-0, NED X-1 withhold — both clear-favorite + clear-stakes games), but **only 2/6 outcomes**: the 4 misses were all the motivation-mismatch profile we've now seen ≥3 times — **ECU 2-1 GER** (Germany seed-locked → indifferent → lost to must-win Ecuador; we FLAGGED it and backed the -188 fav anyway) joins **RSA 1-0 KOR** and **AUS 2-0 TUR**. Fix: **when a favorite is unmotivated (qualified + nothing to gain, or rotating) AND the opponent is must-win, the v2.10 market-gate is invalid — predict the draw or the desperate side, don't back the stale-line favorite.** Also: a dead rubber (TUR 3-2 USA) is open chaos, not a quiet 1-1 — Rule 5 is for *motivated* coin-flips. Eliminated-free tail CONFIRMED (TUN 1-3 NED exact). _(Prior: 2026-06-25 — graded Jun 24 +14; logged the two tails that v2.12 now versions.)_
+**Last updated:** 2026-06-27 — graded Jun 26 slate (**+12 pts**: NOR 1-4 FRA = 4, SEN 5-0 IRQ = 3, CPV 0-0 KSA = 1, URU 0-1 ESP = 3, EGY 1-1 IRN = 1, NZL 1-5 BEL = 0 [NOT submitted; model value 4] → **167/390** from 65 graded). **v2.12 EXTENSION (Jun 26): the "content favorite" (needs only a draw), not just the fully-indifferent one, leans to a draw.** CPV-KSA 0-0 + EGY-IRN 1-1 (both content favorites that only needed a draw) drew as flagged (3rd content-draw with JPN-SWE) — BUT the two *elite* content-favorites still won (FRA 4-1, ESP 1-0). So: **predict the 1-1 for a content/needs-only-a-draw favorite when it's non-elite or facing an organized low-block; keep backing only genuinely elite ones.** Acting on the flag (drawing it) is the points-positive move. **⚠️ Group stage NOT done (verified on Pollaya): Groups J/K/L play MD3 on Jun 28 — predict those 6 group games next (tiered scoring); R32 follows. EGY-IRN was also un-submitted (like NZL-BEL) → Jun 26 actual +11. Standing (app Jun 27): Alok 4th at 169 (internal 167, +2 off-by-one — the NOR-FRA correction fixed the apparent drift); leader Ricardo 179, gap 10; tight 3rd–5th cluster.** _(Prior: 2026-06-26 — graded Jun 25 +15; introduced v2.12.)_
+
+<details><summary>Prior header (v2.12 introduction, 2026-06-26)</summary>
+
+graded Jun 25 slate (**+15 pts**: CUW 0-2 CIV 🎯6, ECU 2-1 GER 1, JPN 1-1 SWE 1, TUN 1-3 NED 🎯6, PRY 0-0 AUS 1, TUR 3-2 USA 0 → **155/354** from 59 graded). **NEW VERSION v2.12 — the Stakes-Asymmetry / Unmotivated-Favorite Override.** The exact drought broke (CIV X-0, NED X-1 withhold — both clear-favorite + clear-stakes games), but **only 2/6 outcomes**: the 4 misses were all the motivation-mismatch profile we've now seen ≥3 times — **ECU 2-1 GER** (Germany seed-locked → indifferent → lost to must-win Ecuador; we FLAGGED it and backed the -188 fav anyway) joins **RSA 1-0 KOR** and **AUS 2-0 TUR**. Fix: **when a favorite is unmotivated (qualified + nothing to gain, or rotating) AND the opponent is must-win, the v2.10 market-gate is invalid — predict the draw or the desperate side, don't back the stale-line favorite.** Also: a dead rubber (TUR 3-2 USA) is open chaos, not a quiet 1-1 — Rule 5 is for *motivated* coin-flips. Eliminated-free tail CONFIRMED (TUN 1-3 NED exact). _(Prior: 2026-06-25 — graded Jun 24 +14; logged the two tails that v2.12 now versions.)_
+
+</details>
 
 <details><summary>Prior header (v2.11 introduction, 2026-06-24)</summary>
 
@@ -142,6 +148,7 @@ Grading Jun 25 (+15, but only 2/6 outcomes) confirmed a **≥3-game pattern the 
 - **"One side content (bunkers) OR both dead (chaos)" → not a standard game, NOT a reliable 1-1.** PRY-AUS (one side wants only a draw → parks the bus) bunkered to 0-0; TUR-USA (both nothing to play for) exploded 3-2. A dead rubber is not a reliable draw — **Rule 5's 1-1 is for coin-flips between *motivated* sides, not free-for-alls.** For a free-for-all dead rubber, drop confidence further; a one-sided pick on whoever retains marginal motivation (pride, auditioning players, a host's home crowd) is as defensible as 1-1.
 - **Don't over-correct — v2.12 fires ONLY on the mismatch profile.** The two clear-favorite + clear-stakes games on this very slate were both **EXACTS**: CIV 2-0 (heavy fav vs a toothless must-win minnow → X-0) and NED 3-1 (motivated fav vs an eliminated-free side → X-1 withhold). When the favorite is **both strong AND motivated**, keep backing the win per the North Star. v2.12 only flips the narrow case of an **unmotivated favorite vs a desperate underdog**. (This is the mirror of v2.10: there the favorite was *wounded*; here it is *indifferent* — both are objective, gated triggers, not vibes.)
 - **Eliminated-free tail (from Jun 24) is now CONFIRMED and points-positive:** TUN 1-3 NED — an eliminated side plays free and scores ~1, so withhold the X-0 and lift the winner's margin. Keep applying it.
+- **v2.12 EXTENSION (Jun 26) — the "content favorite" (needs only a draw), not just the fully-indifferent one, leans to a draw.** Jun 26: CPV-KSA 0-0 and EGY-IRN 1-1 — both favorites that only needed a draw drew (with JPN-SWE Jun 25 = **3 content-favorite draws**, all flagged in-row and all missed by backing the win). **BUT the trigger is gated by class:** the two *elite* content-favorites the same slate still WON — NOR-FRA (France 4-1) and URU-ESP (Spain 1-0). So: a favorite that needs only a draw is **draw-prone — predict the 1-1 (don't just downgrade confidence) when the favorite is non-elite or facing an organized low-block (CPV serial-drawer, Iran's bus); keep backing the win only when the favorite is genuinely elite** (Spain, France). Acting on the flag (drawing it) is the points-positive move — we keep flagging these and losing them by backing the win anyway.
 
 ---
 
@@ -186,13 +193,13 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 - **Refines v2.8:** v2.8 said "use X-1 not X-0 in coin-flips" — go one further to **1-1** when the draw bucket is elevated (mutual-advance / two-organized-defenses), because 1-1 adds the 3pt-on-any-draw that an X-1 lacks.
 - _Worked example: SUI-CAN Jun 24 — SUI +110 / draw +225 / CAN +250 (no >50% side) + both qualify on a draw, Canada at home → 1-1 over the one-sided 1-0._
 
-### Current score baseline (as of 2026-06-26)
-- **155 pts from 59 graded matches** (43.8% efficiency vs 354pt max)
-- Exact hits (6pts each): **10 matches** (60/155 = 39% of total score) — HAI-SCT, BEL-EGY, SCO-MAR, BRA-HAI, GER-CIV, FRA-IRQ, ARG-AUT, ALG-JOR, **CUW-CIV, TUN-NED** _(drought broken: 2 on Jun 25)_
-- Correct-outcome rate: **33/59 (56%)** — win picks 31/49 (63%), draw picks 2/10 (20%)
-- Average per match: **2.63 pts**; target ≥ 3.0 pts/match
-- Losses to 0: **10** (+1 Jun 25: TUR 3-2 USA dead-rubber) — CAN-BIH, QAT-SUI, AUS-TUR, IRN-NZL, POR-COD, ENG-CRO, BEL-IRN, URU-CPV, RSA-KOR, **TUR-USA**
-- **Jun 25 (+15) split cleanly: the 2 clear-favorite games were EXACTS (CIV, NED); the 4 motivation-mismatch games were all OUTCOME misses** (ECU-GER upset, JPN-SWE draw, PRY-AUS bunker-draw, TUR-USA dead-rubber). The scoreline engine is sharp; the leak is now squarely the **outcome on unmotivated-favorite games → v2.12.** **Standing (last app reading Jun 25): Alok 4th at 141 (internal 140, +1 off-by-one).** After +15 internal is **155 → app ~156**; no fresh screenshot yet. The gap-closer is no longer "hunt exacts" (we did — 2 of them) but **stop donating outcomes on motivation-mismatch games.**
+### Current score baseline (as of 2026-06-27 — group stage complete)
+- **167 pts from 65 graded matches** (42.8% efficiency vs 390pt max)
+- Exact hits (6pts each): **10 matches** — …**CUW-CIV, TUN-NED** _(none Jun 26)_
+- Correct-outcome rate: **37/65 (57%)** — win picks 35/55 (64%), draw picks 2/10 (20%) _(Jun 26 model 4/6)_
+- Average per match: **2.57 pts**; target ≥ 3.0 pts/match
+- Losses to 0: **10** model — …**TUR-USA**. _(Plus NZL-BEL Jun 26 = app-0 by non-submission, but model-correct = 4pts; not counted as a model zero.)_
+- **Jun 26 (+12, model 4/6 outcomes): the model is sound — the 2 misses were the flagged content-favorite draws (CPV 0-0, EGY 1-1), and the elite content-favorites won (FRA 4-1, ESP 1-0). Two takeaways: (1) ACT on the content/unmotivated-favorite flag (predict the 1-1, don't just downgrade) for non-elite ones — see v2.12 extension; (2) operational — a model-correct 4-pointer (NZL-BEL) was lost to a missed app entry; confirm all picks are submitted.** **Standing (app Jun 27): Alok 4th at 169** (internal 167, +2 off-by-one — the NOR-FRA correction (France won 4-1) resolved the apparent +6 drift). Leader Ricardo 179 (gap 10); 3rd–5th tight at 168–170. **Group stage done; R32 starts Jun 28.**
 
 ---
 
@@ -259,6 +266,12 @@ When the market shows **no side above ~50%** (a genuine pickem, ±120 both ways)
 | Jun 25 | ECU vs GER | 0-1 → 2-1 ECU. **Miss (1pt) — stakes-asymmetry upset, AGAIN.** Germany seed-locked as winner (zero incentive) lost to must-win Ecuador. We flagged it and backed the -188 fav anyway. 3rd such upset. (→ **v2.12**) |
 | Jun 25 | PRY vs AUS | 1-0 → 0-0. Miss (1pt, AUS 0=0). The flagged bunker-draw: Australia (through on a draw) parked the bus, Almirón-less Paraguay couldn't break through. A draw call banks 3. (→ v2.12 family) |
 | Jun 25 | TUR vs USA | 1-1 → 3-2 TUR. Miss (0pt). Dead rubber EXPLODED — eliminated Turkey played free, beat rotated USA. Rule 5's 1-1 = 0 (a 3-2 has no "1"). Dead rubbers ≠ quiet draws. (→ v2.12) |
+| Jun 26 | NOR vs FRA | 1-2 → 1-4 FRA. Win (4pts, NOR 1=1). France (content-ish, tops with a draw) still won 4-1 — counter-example: **elite** content-favorites can deliver. Margin under. |
+| Jun 26 | SEN vs IRQ | 2-1 → 5-0 SEN. Win (3pts). Senegal's quality buried Iraq in the dead rubber; X-1 withhold wrong (Iraq blanked → 2-0 was 4pt floor), margin far too timid. |
+| Jun 26 | CPV vs KSA | 1-0 → 0-0. Miss (1pt, KSA 0=0). Content serial-drawer (a draw advanced CPV) drew again — flagged. Content-favorite draw tendency (→ v2.12 ext). |
+| Jun 26 | URU vs ESP | 1-2 → 0-1 ESP. Win (3pts). Spain controlled for the win it could afford; our alt 1-0 was the exact. Motivated elite fav delivered (counter to the content-draw worry). |
+| Jun 26 | EGY vs IRN | 2-1 → 1-1. Miss (1pt, IRN 1=1). Content Egypt (needs only a draw) + Iran low-block → the 1-1 we flagged (Iran's 90'+ winner VAR-ruled offside). (→ v2.12 ext) |
+| Jun 26 | NZL vs BEL | 1-2 → 1-5 BEL. **NOT SUBMITTED → 0 (process, not model).** Pick was right (BEL won + NZL 1=1 = 4pts). Operational miss — confirm picks are entered. |
 
 ---
 
