@@ -19,7 +19,7 @@ Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines
 | **1** | Wrong outcome but one team's goal count matches |
 | **0** | Nothing matches |
 
-**Knockouts (Round of 32 onward) — same table above; the point values do NOT change.** The only difference: a match is scored on its **90/120-minute result** with **penalties excluded** — a tie level after extra time is scored as a **DRAW**, predicting the shootout winner earns nothing, and a **1-1 is a live, scoring pick** for a cagey even tie. (Plus one-time tournament bonuses: **champion +10, runner-up +10**.)
+**Knockouts (Round of 32 onward) — same table above; the point values do NOT change.** The only difference: a match is scored on its **90/120-minute result** with **penalties excluded** — a tie level after extra time is scored as a **DRAW**, picking the penalty-shootout winner does not score any points, and a **1-1 is a live, scoring pick** for a cagey even tie. (Plus one-time tournament bonuses: **champion +10, runner-up +10**.)
 
 **The goal is to maximize total points.** This requires two things working together: (1) a calibration model that calls the right outcome (W/D/L), and (2) score-maximizing scoreline selection that extracts the most points from each correct call. Both are maintained in `lessons.md` — read it before every prediction. Key scoreline rules: never predict 0-0 (use 1-1 instead); prefer X-0 over X-1 for clean-sheet favorites (the "4pt floor rule"); concentrate on common scorelines (1-0, 1-1, 2-0, 2-1) for exact-hit frequency.
 
