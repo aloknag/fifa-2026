@@ -28,7 +28,8 @@ and gap to the leader.
 ### Phase 2 — Grade finished matches
 Web-confirm every final score from **≥2 reputable sources** (ESPN, official FIFA, a major sportsbook)
 before logging. Fill the "Actual Result" column, mark Win / Miss / Win (wrong margin), score each per
-the rubric (§3), and update the scorecard.
+the rubric (§3 — tiered for groups, additive for knockouts; **knockout games grade on the 90/120-minute
+result, penalties ignored → a tie is a draw**), and update the scorecard.
 **Verify:** every score is sourced from ≥2 places and all scorecard arithmetic is re-checked by hand.
 
 ### Phase 3 — Learn & calibrate (disciplined)
@@ -58,15 +59,24 @@ explain the adjustment. On a confirming slate, log the validation and change not
    *(Reminder of the trap: judge an opponent's threat against THIS favorite's defence and form, not
    transitively against a common third team — see the ARG/Austria lesson.)*
 3. Pull current **odds + team news** (injuries, lineups, must-win situations).
-4. Apply the model from `lessons.md`: **North Star first — call the outcome (W/D/L)**, then pick the
+4. **Validate before committing to a score (validate-before-accepting).** Before locking any scoreline,
+   independently verify every **load-bearing factual claim** behind it — a cited result / H2H, an injury
+   or suspension, a form or xG stat, a "team X can score on / trouble team Y" claim — against a reputable
+   source, **including its context, not just the headline fact**: when was it, competitive or a friendly,
+   full-strength or rotated, home or away, still current? A single-source or out-of-context claim **cannot
+   drive a pick** — downgrade it to color or drop it. *(Lesson: "Japan 3-2 Brazil," cited for BRA-JAP, was
+   real — but a friendly against a rotated, 2nd-string Brazil; verifying the context, not just the score,
+   is what tells you it supports "Japan scores one," not "Japan upsets a full-strength Brazil.")*
+5. Apply the model from `lessons.md`: **North Star first — call the outcome (W/D/L)**, then pick the
    score-maximizing scoreline (never 0-0; X-0 floor for clean-sheet favorites; common scorelines for
    exact hits; lift margins per v2.7).
-5. **State a points target per pick (MANDATORY, per Alok).** Alongside the scoreline, predict the
+6. **State a points target per pick (MANDATORY, per Alok).** Alongside the scoreline, predict the
    points the pick is playing for, on the scoring rubric (**canonical in [`CLAUDE.md`](CLAUDE.md) §1**;
    the tiers are the discrete set **0 / 1 / 3 / 4 / 6** — don't duplicate the full table here):
-   - **aim** — the exact-hit ceiling, **6**. We always commit to one scoreline and play for the exact
-     (per Alok's standing goal: aim for 6 on every game), so `aim` is a constant by design — kept to
-     signal we're hunting the exact, not settling for a floor.
+   - **aim** — the exact-hit ceiling, **6** (group stage) / **7** (knockouts — the additive max). We
+     always commit to one scoreline and play for the exact (per Alok's standing goal), so `aim` is a
+     constant by design — kept to signal we're hunting the exact, not settling for a floor. In the
+     knockouts `likely` is drawn from the additive set **{0, 1, 2, 3, 7}**, not the tiered {0,1,3,4,6}.
    - **likely** — the honest, EV-anchored expected tier given confidence — NOT the optimistic read; a
      low-confidence pick whose realistic floor is 1pt must say so. State it as one tier or a set of
      discrete tiers (e.g. "4", "3", or **"1 or 3"** — never a range like "1–3", since there is no
@@ -79,7 +89,8 @@ explain the adjustment. On a confirming slate, log the validation and change not
    against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
 *before* the scoreline, (c) a verified group label, (d) an explicit points target (aim + likely) and a
-slate-total expectation.
+slate-total expectation, **(e) every load-bearing factual claim behind the score independently verified —
+context (friendly vs competitive, rotated vs full-strength, when) checked, not just the headline fact.**
 
 ### Phase 5 — Red-team / self-verify (validate before accepting)
 Run an adversarial pass over your own grades and picks (a sub-agent red-team is encouraged for full
@@ -112,10 +123,18 @@ to `CLAUDE.md`/this file — so the way we work improves, not only the model.
 - **Protect the grade→lesson loop from whipsaw.** The loop is the engine; the discipline is what keeps
   it from over-fitting itself into noise.
 
-## 3. Scoring rubric
-The scoring table is **canonical in [`CLAUDE.md`](CLAUDE.md) §1** — read it there (6 = exact · 4 =
-correct outcome + one team's goal count · 3 = correct outcome only · 1 = wrong outcome + one goal
-count · 0 = nothing). Kept in one place to avoid the two copies drifting.
+## 3. Scoring rubric — **round-dependent (this changes at the knockouts)**
+- **Group stage — tiered.** Canonical in [`CLAUDE.md`](CLAUDE.md) §1 (6 = exact · 4 = correct outcome +
+  one team's goal count · 3 = correct outcome only · 1 = wrong outcome + one goal count · 0 = nothing).
+- **Knockouts (Round of 32 onward) — additive, max 7.** A *different* system: **correct outcome +2 ·
+  each team's goal-count matched +1 · exact +3 bonus** (only 0/1/2/3/7 achievable). **Penalties are
+  ignored — a tie is scored as the 90/120-minute DRAW**, so never predict the shootout winner, and a
+  1-1 is a live, scoring pick for cagey even ties. Full detail in `lessons.md` and the
+  `pollaya-knockout-scoring` memory.
+
+Apply the tiered table through the group stage, the additive one from the R32. Everything else in this
+workflow (the 8 phases, the verify gates, the discipline) is **identical across both** — only the
+scoring the phases reference changes.
 
 ## 4. Daily success metrics (so "better" is measurable)
 Track the trend, not just the day: **pts/match** (target ≥ 3.0), **outcome-accuracy %**,
