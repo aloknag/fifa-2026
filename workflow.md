@@ -28,7 +28,7 @@ and gap to the leader.
 ### Phase 2 — Grade finished matches
 Web-confirm every final score from **≥2 reputable sources** (ESPN, official FIFA, a major sportsbook)
 before logging. Fill the "Actual Result" column, mark Win / Miss / Win (wrong margin), score each per
-the rubric (§3 — same 6/4/3/1/0 both rounds; **knockout games grade on the 90/120-minute
+the rubric (§3 — same 6/4/3/1/0 in both stages (group + knockout); **knockout games grade on the 90/120-minute
 result, penalties excluded → a tie is a draw**), and update the scorecard.
 **Verify:** every score is sourced from ≥2 places and all scorecard arithmetic is re-checked by hand.
 
@@ -131,7 +131,7 @@ count · 0 = nothing; plus one-time champion +10 / runner-up +10).
 **90/120-minute result** — **penalties are excluded**, so a tie level after extra time is scored as a
 **DRAW**, predicting the shootout winner earns nothing, and a **1-1 is a live, scoring pick** for a cagey
 even tie. Everything else (the 8 phases, the gates, the discipline, the 6/4/3/1/0 points targets) is
-**identical across both rounds** — only the penalty rule is new at the R32.
+**identical across both stages (group + knockout)** — only the penalty rule is new at the R32.
 
 ## 4. Daily success metrics (so "better" is measurable)
 Track the trend, not just the day: **pts/match** (target ≥ 3.0), **outcome-accuracy %**,

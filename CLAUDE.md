@@ -7,7 +7,7 @@
 > always update these same two files.
 
 ## 1. What this project is for
-Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines for upcoming matches and accumulate points. **The same scoring applies all tournament** (the only knockout twist is how ties are handled — see below).
+Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines for upcoming matches and accumulate points. **The same scoring applies throughout the tournament** (the only knockout twist is how ties are handled — see below).
 
 **Scoring (max 6 per match, all rounds):**
 
