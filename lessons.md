@@ -25,7 +25,7 @@ _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's 
 6. **Don't over-inflate margins.** Knockouts are cagier/lower-scoring than group blowouts; the modal favorite win is usually **1-0 / 2-1 / 2-0**, not 3-1. Back a big margin only in a genuine mismatch.
 
 ## Knockout regime notes (what's different — it's the game, not the scoring)
-- **No dead rubbers / content favorites / rotation** — every game win-or-out, both trying. R1's biggest leak (favorites coasting in low-stakes games, the v2.12 motivation-mismatch) is **gone** — don't apply those overrides here.
+- **No dead rubbers / content favorites / motivational rotation** — every game is win-or-out, both trying, so R1's biggest leak (favorites coasting in low-stakes games, the v2.12 motivation-mismatch) is **gone** — don't apply those overrides here. *(Teams still rotate for injuries/suspensions/tactics — always run the lineup & availability check.)*
 - **Cagier, lower-scoring** → favor 1-0 / 2-1 / 1-1; fewer blowouts.
 - **Genuine mismatch** (group winner vs a 3rd-place qualifier) → back the favorite with a clean decisive score (often X-0). **Two evenly-matched sides** → 1-1 is live (and a tie is scored as a draw).
 
