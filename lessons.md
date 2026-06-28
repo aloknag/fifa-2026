@@ -7,12 +7,12 @@ _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's 
 ---
 
 ## 🎯 KNOCKOUT SCORING — same 6/4/3/1/0 (confirmed on the Pollaya `/puntos` page + by Alok)
-**The point system is identical to the group stage** — Winner selection +3, each team's goal-count +1, exact +1 bonus, which sum to the familiar tiers:
+**The point system is identical to the group stage** — correct outcome (W/D/L) +3 (the Pollaya page labels this "Winner selection"), each team's goal-count +1, exact +1 bonus, which sum to the familiar tiers:
 - **6** = exact scoreline · **4** = correct outcome + one team's goal count · **3** = correct outcome only · **1** = wrong outcome + one team's goal count · **0** = nothing.
 - Tournament-long bonuses (set pre-tournament): **champion +10, runner-up +10.**
 
 **The ONLY knockout difference — penalties:** a match is scored on its **90/120-minute result**. **Penalties are excluded** → a tie that's level after extra time is scored as a **DRAW**, and predicting the shootout winner earns **nothing**. So predict the result *within* 90/120 minutes.
-- _Check (actual 1-1, won on pens): predict 1-1 → 6; 0-0/2-2 → 3; 1-0/2-1 → 1; 2-0 → 0. (3 is impossible vs a draw.)_
+- _Check (actual 1-1, won on pens): predict 1-1 → 6; 0-0/2-2 → 3 (correct outcome only); 1-0/2-1 → 1; 2-0 → 0. (**4** is impossible vs a draw — a draw prediction matches both goals → 6, or neither → 3, never exactly one.)_
 
 ---
 
