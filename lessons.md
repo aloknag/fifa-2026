@@ -2,7 +2,7 @@
 
 _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's full ledger + retrospective is archived in **`round1_lessons.md`** — read it once for context. The scoring is the **same as the group stage**; what changes is the game dynamics: **every match is win-or-out, both teams trying** (no dead rubbers / content-favorites / motivational rotation — though teams still rotate for injuries/suspensions)._
 
-**Last updated:** 2026-06-28 — group stage finished **188/426, 2nd of 16** (Ricardo 198, gap 7). Knockouts begin.
+**Last updated:** 2026-06-28 (eve) — **R32 underway: RSA 0-1 CAN graded → 🎯 exact (6) → 194 cumulative.** Group stage finished **188/426, 2nd of 16** (Ricardo 198, gap 7). Pending R32: BRA 2-1 JPN, GER 2-0 PRY (Jun 29). _(Re-run the full workflow tomorrow AM for fresh team news on the next batch.)_
 
 ---
 
@@ -38,4 +38,4 @@ _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's 
 ## Lesson log — Knockouts (per-match takeaways)
 | Date | Match | What we learned |
 | :--- | :--- | :--- |
-| _(filled as the Round of 32 is graded)_ | | |
+| Jun 28 | RSA 0-1 CAN | **Exact (6) — 1st knockout game.** The X-0 floor read held: a clear favorite (Canada -140, home) to nil vs a toothless side (SA ≤1 goal/game) = the 6. **Confirms the group 6/4/3/1/0 model transfers directly to knockouts** (same scoring). Late winner (90'+2') but the margin stayed at 1, as the Davies-out cap implied — don't over-inflate favorite margins in cagey knockouts. |

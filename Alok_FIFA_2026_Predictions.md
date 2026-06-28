@@ -12,7 +12,7 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 
 | Date (2026) | Round | Fixture | Our Prediction | Actual Result | Score (max 6) | Outcome / Review Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jun 28 | R32 | RSA vs CAN | **0 - 1 (CAN)** | Pending | — | ✅ SUBMITTED + reload-verified. Canada -140 at home; **Davies doubtful + Kone out** caps the margin; South Africa toothless (≤1 goal/game, Zwane suspended) + Canada's elite D → Canada to nil, **0-1 (CAN)** (X-0). 🎯 **aim 6** (exact 0-1) · **likely 4** (Canada win + RSA blanks → 0=0 floor; 1 if it ends 1-1→pens). |
+| Jun 28 | R32 | RSA vs CAN | 0 - 1 (CAN) | **0 - 1 (CAN)** | **6** | **WIN (exact)** 🎯 Eustáquio 90'+2' (normal time — no ET/pens). The X-0 read nailed it: clear favorite (Canada -140, home) to nil vs a toothless South Africa (≤1 goal/game), Davies-out margin-cap keeping it to 1. Canada reach the R16 for the first time. _(1st knockout game graded → the group 6/4/3/1/0 model transfers directly)_ |
 | Jun 29 | R32 | BRA vs JPN | **2 - 1 (BRA)** | Pending | — | ✅ SUBMITTED + verified. Brazil's full attack (Vini/Raphinha/Neymar/Cunha, Ancelotti) controls; Japan **beat Brazil 3-2 in Oct** & attacks → scores one. **2-1** (alt 3-1). 🎯 **aim 6** · **likely 4** (Brazil win + a goal-count match, e.g. JPN 1=1 or BRA 2; 3 if no match; 6 if 2-1). |
 | Jun 29 | R32 | GER vs PRY | **2 - 0 (GER)** | Pending | — | ✅ SUBMITTED + verified. Germany loaded (Musiala/Wirtz/Sané/Havertz); **Paraguay without Gómez (susp., their 3-goal man)**, defensive, toothless → clean **2-0** (X-0). 🎯 **aim 6** · **likely 4** (GER win + PRY blanks → 0=0 floor; 6 if 2-0). |
 
@@ -23,9 +23,9 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Metric | Value |
 | :--- | :--- |
 | Group stage carryover | **188 / 426** (71 games — see `round1.md`); finished **2nd of 16** |
-| Knockout games graded | 0 |
-| Knockout points | 0 |
-| **Cumulative pool total** | **188** (app 191) |
+| Knockout games graded | 1 |
+| Knockout points | **6** (1 game · 1 exact 🎯 · 6.0/game) |
+| **Cumulative pool total** | **194** (188 group + RSA-CAN 6; app ~197, ~+3 off-by-one) |
 | Standing | **2nd of 16** — Ricardo 198 (gap 7); 2nd–4th bunched 190–191 |
 | #1 priority | Hunt the **exact (6)** every game (modal scoreline); **predict 1-1 on cagey even ties** (a tie is scored as a draw — penalties excluded, never pick the shootout winner); X-0 floor for clean-sheet favorites; verify-submit every pick. |
 
