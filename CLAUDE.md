@@ -7,7 +7,9 @@
 > always update these same two files.
 
 ## 1. What this project is for
-Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines for upcoming matches and accumulate points using this scoring system:
+Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines for upcoming matches and accumulate points. **The scoring rubric is round-dependent.**
+
+**Group stage — tiered (max 6):**
 
 | Points | Condition |
 | ---: | :--- |
@@ -16,6 +18,8 @@ Alok is playing a **World Cup 2026 pool betting game**: predict exact scorelines
 | **3** | Correct outcome only |
 | **1** | Wrong outcome but one team's goal count matches |
 | **0** | Nothing matches |
+
+**Knockouts (Round of 32 onward) — additive (max 7):** correct outcome **+2** · each team's goal-count matched **+1** (so +2 when both match) · exact scoreline **+3** bonus. Only 0/1/2/3/7 are achievable. **Penalties are ignored — a match decided on penalties is scored as its 90/120-minute result (a DRAW).** So in the knockouts never predict a shootout winner; grade on the 90/120-minute scoreline, and a 1-1 is a live, scoring pick for a cagey even tie.
 
 **The goal is to maximize total points.** This requires two things working together: (1) a calibration model that calls the right outcome (W/D/L), and (2) score-maximizing scoreline selection that extracts the most points from each correct call. Both are maintained in `lessons.md` — read it before every prediction. Key scoreline rules: never predict 0-0 (use 1-1 instead); prefer X-0 over X-1 for clean-sheet favorites (the "4pt floor rule"); concentrate on common scorelines (1-0, 1-1, 2-0, 2-1) for exact-hit frequency.
 

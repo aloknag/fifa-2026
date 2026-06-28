@@ -59,7 +59,7 @@ explain the adjustment. On a confirming slate, log the validation and change not
    *(Reminder of the trap: judge an opponent's threat against THIS favorite's defence and form, not
    transitively against a common third team — see the ARG/Austria lesson.)*
 3. Pull current **odds + team news** (injuries, lineups, must-win situations).
-4. **Validate before committing to a score (validate-before-accepting).** Before locking any scoreline,
+4. **Validate before committing to a score (validate-before-scoring).** Before locking any scoreline,
    independently verify every **load-bearing factual claim** behind it — a cited result / H2H, an injury
    or suspension, a form or xG stat, a "team X can score on / trouble team Y" claim — against a reputable
    source, **including its context, not just the headline fact**: when was it, competitive or a friendly,
@@ -81,10 +81,11 @@ explain the adjustment. On a confirming slate, log the validation and change not
      low-confidence pick whose realistic floor is 1pt must say so. State it as one tier or a set of
      discrete tiers (e.g. "4", "3", or **"1 or 3"** — never a range like "1–3", since there is no
      2- or 5-point tier).
-   Format in the tracker row: `🎯 Pts — aim 6 (the exact) · likely M (why)`. Also give a **slate total**
+   Format in the tracker row: `🎯 Pts — aim A (the exact) · likely M (why)`, where `A` is the round's
+   exact-max (**6** group stage / **7** knockouts). Also give a **slate total**
    as a **low–high range**: sum each pick's *lowest* `likely` tier for the floor and its *highest* for
    the ceiling (a single-tier `likely` contributes the same value to both ends; a set like "1 or 3"
-   contributes 1 to the floor and 3 to the ceiling). Optionally note the all-exacts ceiling (6 × games).
+   contributes 1 to the floor and 3 to the ceiling). Optionally note the all-exacts ceiling (`A` × games).
    Stating this forces the EV math (X-0 ladder vs Rule 5 vs withhold) to be explicit and checkable
    against the result.
 **Verify:** every pick has (a) a logged prior-form line for both teams, (b) an outcome rationale stated
@@ -129,8 +130,8 @@ to `CLAUDE.md`/this file — so the way we work improves, not only the model.
 - **Knockouts (Round of 32 onward) — additive, max 7.** A *different* system: **correct outcome +2 ·
   each team's goal-count matched +1 · exact +3 bonus** (only 0/1/2/3/7 achievable). **Penalties are
   ignored — a tie is scored as the 90/120-minute DRAW**, so never predict the shootout winner, and a
-  1-1 is a live, scoring pick for cagey even ties. Full detail in `lessons.md` and the
-  `pollaya-knockout-scoring` memory.
+  1-1 is a live, scoring pick for cagey even ties. Both rubrics are now documented canonically in
+  [`CLAUDE.md`](CLAUDE.md) §1; `lessons.md` is the model that applies them.
 
 Apply the tiered table through the group stage, the additive one from the R32. Everything else in this
 workflow (the 8 phases, the verify gates, the discipline) is **identical across both** — only the
