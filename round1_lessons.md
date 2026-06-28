@@ -14,7 +14,7 @@
 5. **The app is the source of truth** for schedule + scoring (a web search wrongly told us the group stage was over).
 
 ## Carried into the knockouts (→ `lessons.md`)
-- Knockouts use **additive 7-pt scoring** (outcome +2, each goal-count +1, exact +3; penalties ignored → ties = draws). Different game.
+- Knockouts use the **same 6/4/3/1/0 scoring** (confirmed on Pollaya `/puntos`) — the only difference is it's judged on the **90/120-min result, penalties excluded** (a tie is scored as a draw). Same points, different game *dynamics* (win-or-out).
 - No dead rubbers / content favorites — every game win-or-out. Keep: back the favorite, X-0 floor, never-0-0, commit the margin, and **predict 1-1 for cagey even ties** (Jun 28 proved we can).
 
 ---
