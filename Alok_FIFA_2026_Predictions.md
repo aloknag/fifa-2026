@@ -12,7 +12,7 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 
 | Date (2026) | Round | Fixture | Our Prediction | Actual Result | Score (max 6) | Outcome / Review Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jun 28 | R32 | RSA vs CAN | 0 - 1 (CAN) | **0 - 1 (CAN)** | **6** | **WIN (exact)** 🎯 Eustáquio 90'+2' (normal time — no ET/pens). The X-0 read nailed it: clear favorite (Canada -140, home) to nil vs a toothless South Africa (≤1 goal/game), Davies-out margin-cap keeping it to 1. Canada reach the R16 for the first time. _(1st knockout game graded → the group 6/4/3/1/0 model transfers directly)_ |
+| Jun 28 | R32 | RSA vs CAN | 0 - 1 (CAN) | **0 - 1 (CAN)** | **6** | **WIN (exact)** 🎯 Eustáquio 90+2' (normal time — no ET/pens). The X-0 read nailed it: clear favorite (Canada -140, home) to nil vs a toothless South Africa (≤1 goal/game), Davies-out margin-cap keeping it to 1. Canada reach the R16 for the first time. _(1st knockout game graded → the group 6/4/3/1/0 model transfers directly)_ |
 | Jun 29 | R32 | BRA vs JPN | **2 - 1 (BRA)** | Pending | — | ✅ SUBMITTED + verified. Brazil's full attack (Vini/Raphinha/Neymar/Cunha, Ancelotti) controls; Japan **beat Brazil 3-2 in Oct** & attacks → scores one. **2-1** (alt 3-1). 🎯 **aim 6** · **likely 4** (Brazil win + a goal-count match, e.g. JPN 1=1 or BRA 2; 3 if no match; 6 if 2-1). |
 | Jun 29 | R32 | GER vs PRY | **2 - 0 (GER)** | Pending | — | ✅ SUBMITTED + verified. Germany loaded (Musiala/Wirtz/Sané/Havertz); **Paraguay without Gómez (susp., their 3-goal man)**, defensive, toothless → clean **2-0** (X-0). 🎯 **aim 6** · **likely 4** (GER win + PRY blanks → 0=0 floor; 6 if 2-0). |
 

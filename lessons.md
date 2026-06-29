@@ -38,4 +38,4 @@ _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's 
 ## Lesson log — Knockouts (per-match takeaways)
 | Date | Match | What we learned |
 | :--- | :--- | :--- |
-| Jun 28 | RSA 0-1 CAN | **Exact (6) — 1st knockout game.** The X-0 floor read held: a clear favorite (Canada -140, home) to nil vs a toothless side (SA ≤1 goal/game) = the 6. **Confirms the group 6/4/3/1/0 model transfers directly to knockouts** (same scoring). Late winner (90'+2') but the margin stayed at 1, as the Davies-out cap implied — don't over-inflate favorite margins in cagey knockouts. |
+| Jun 28 | RSA 0-1 CAN | **Exact (6) — 1st knockout game.** The X-0 floor read held: a clear favorite (Canada -140, home) to nil vs a toothless side (SA ≤1 goal/game) = the 6. **Confirms the group 6/4/3/1/0 model transfers directly to knockouts** (same scoring). Late winner (90+2') but the margin stayed at 1, as the Davies-out cap implied — don't over-inflate favorite margins in cagey knockouts. |
