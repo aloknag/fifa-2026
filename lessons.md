@@ -2,7 +2,7 @@
 
 _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's full ledger + retrospective is archived in **`round1_lessons.md`** — read it once for context. The scoring is the **same as the group stage**; what changes is the game dynamics: **every match is win-or-out, both teams trying** (no dead rubbers / content-favorites / motivational rotation — though teams still rotate for injuries/suspensions)._
 
-**Last updated:** 2026-06-28 (eve) — **R32 underway: RSA 0-1 CAN graded → 🎯 exact (6) → 194 cumulative.** Group stage finished **188/426, 2nd of 16** (Ricardo 198, gap 7). Pending R32: BRA 2-1 JPN, GER 2-0 PRY (Jun 29). _(Re-run the full workflow tomorrow AM for fresh team news on the next batch.)_
+**Last updated:** 2026-06-28 (eve) — **R32 underway: RSA 0-1 CAN graded → 🎯 exact (6) → 194 cumulative.** Group stage finished **188/426, 2nd of 16** (last app check Jun 28, pre-R32: Ricardo 198, then-gap 7 — live gap TBD now that R32 points are accruing for everyone). Pending R32: BRA 2-1 JPN, GER 2-0 PRY (Jun 29). _(Re-run the full workflow tomorrow AM for fresh team news on the next batch.)_
 
 ---
 
