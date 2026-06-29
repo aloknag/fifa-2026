@@ -25,7 +25,7 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Group stage carryover | **188 / 426** (71 games — see `round1.md`); finished **2nd of 16** |
 | Knockout games graded | 1 |
 | Knockout points | **6** (1 game · 1 exact 🎯 · 6.0/game) |
-| **Cumulative pool total** | **194** (188 group + RSA-CAN 6; app ~197, ~+3 off-by-one) |
+| **Cumulative pool total** | **194** (188 group + RSA-CAN 6; app ~197 — an internal-vs-app **offset of ~+3**) |
 | Standing | **2nd of 16** — Ricardo 198 (gap 7); 2nd–4th bunched 190–191 |
 | #1 priority | Hunt the **exact (6)** every game (modal scoreline); **predict 1-1 on cagey even ties** (a tie is scored as a draw — penalties excluded, never pick the shootout winner); X-0 floor for clean-sheet favorites; verify-submit every pick. |
 
