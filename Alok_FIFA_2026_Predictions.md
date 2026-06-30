@@ -13,8 +13,12 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Date (2026) | Round | Fixture | Our Prediction | Actual Result | Score (max 6) | Outcome / Review Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Jun 28 | R32 | RSA vs CAN | 0 - 1 (CAN) | **0 - 1 (CAN)** | **6** | **WIN (exact)** 🎯 Eustáquio 90+2' (normal time — no ET/pens). The X-0 read nailed it: clear favorite (Canada -140, home) to nil vs a toothless South Africa (≤1 goal/game), Davies-out margin-cap keeping it to 1. Canada reach the R16 for the first time. _(1st knockout game graded → the group 6/4/3/1/0 model transfers directly)_ |
-| Jun 29 | R32 | BRA vs JPN | **2 - 1 (BRA)** | Pending | — | ✅ SUBMITTED + verified. Brazil's full attack (Vini/Raphinha/Neymar/Cunha, Ancelotti) controls; Japan **beat Brazil 3-2 in Oct** & attacks → scores one. **2-1** (alt 3-1). 🎯 **aim 6** · **likely 4** (Brazil win + a goal-count match, e.g. JPN 1=1 or BRA 2; 3 if no match; 6 if 2-1). |
-| Jun 29 | R32 | GER vs PRY | **2 - 0 (GER)** | Pending | — | ✅ SUBMITTED + verified. Germany loaded (Musiala/Wirtz/Sané/Havertz); **Paraguay without Gómez (susp., their 3-goal man)**, defensive, toothless → clean **2-0** (X-0). 🎯 **aim 6** · **likely 4** (GER win + PRY blanks → 0=0 floor; 6 if 2-0). |
+| Jun 29 | R32 | BRA vs JPN | 2 - 1 (BRA) | **2 - 1 (BRA)** | **6** | **WIN (exact)** 🎯 Sano 29' (JPN), Casemiro 56', Martinelli 90+5'. Brazil came from 0-1 down; full-strength Brazil controls + a weakened Japan (Kubo/Minamino out) scores one — exactly the 2-1 read. **2nd straight R32 exact.** |
+| Jun 29 | R32 | GER vs PRY | 2 - 0 (GER) | **1 - 1 (to pens)** | **0** | **MISS.** Germany only drew a Gómez-less Paraguay 1-1 (decided on penalties; the 90/120 result = a 1-1 draw). Predicted 2-0 GER → wrong outcome, no goal-count match → 0. Backing the heavy favorite wasn't wrong, but the **2-0 margin was too rich for a cagey knockout** (cf. "don't over-inflate margins"). |
+| Jun 29 | R32 | NED vs MAR | — (not submitted) | **1 - 1 (to pens)** | **0** | ⚠️ **NOT SUBMITTED → 0.** No pick was entered: we paused at 99% quota and the deferred resume landed (04:15 UTC) **after** the ~00:45 lock. **Process miss, not a model miss.** Lesson: never let a same-day game sit blank — enter early; a quota pause must not overshoot a kickoff. |
+| Jun 30 | R32 | CIV vs NOR | **1 - 2 (NOR)** | Pending | — | ✅ SUBMITTED + reload-verified. Norway slight fav (48%, Haaland/Ødegaard) but **leaky D (7 conceded in 3)** → **red-team fix from 1-0**: back the favorite but withhold the X-0 → CIV nicks one → 2-1. Lowest-confidence; alt 1-1 (draw-prone even tie). 🎯 aim 6 · likely 3. |
+| Jun 30 | R32 | FRA vs SWE | **2 - 1 (FRA)** | Pending | — | ✅ SUBMITTED + reload-verified. France -400 heavy fav (Mbappé/Dembélé, beat NOR 4-1); withhold the X-0 for Sweden's Isak + Gyökeres → 2-1. 🎯 aim 6 · likely 4. |
+| Jun 30 | R32 | MEX vs ECU | **1 - 0 (MEX)** | Pending | — | ✅ SUBMITTED + reload-verified. Two elite Ds, Under 1.5; Mexico home (Azteca) + yet to concede vs a toothless Ecuador → X-0. 🎯 aim 6 · likely 4. |
 
 ---
 
@@ -23,10 +27,10 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Metric | Value |
 | :--- | :--- |
 | Group stage carryover | **188 / 426** (71 games — see `round1.md`); finished **2nd of 16** |
-| Knockout games graded | 1 |
-| Knockout points | **6** (1 game · 1 exact 🎯 · 6.0/game) |
-| **Cumulative pool total** | **194** (188 group + RSA-CAN 6; app ~197 — an internal-vs-app **offset of ~+3**) |
-| Standing | **2nd of 16 as of the last app check (Jun 28, PRE-R32)** — Ricardo 198, then-gap 7; 2nd–4th bunched 190–191. _Our 194 is post-RSA-CAN internal; rivals also bank R32 points, so the live gap is TBD — needs a fresh Pollaya standings check next run._ |
-| #1 priority | Hunt the **exact (6)** every game (modal scoreline); **predict 1-1 on cagey even ties** (a tie is scored as a draw — penalties excluded, never pick the shootout winner); X-0 floor for clean-sheet favorites; verify-submit every pick. |
+| Knockout games | **4 played** (RSA-CAN, BRA-JPN, GER-PRY, NED-MAR) |
+| Knockout points | **12** — 2 exacts 🎯 (RSA-CAN, BRA-JPN), 1 miss (GER-PRY 0), 1 **not submitted** (NED-MAR 0). 2/4 scored. |
+| **Cumulative pool total** | **200** (188 group + 12 knockout; app ~+3 offset) |
+| Standing | **Last app check Jun 28 (PRE-R32): 2nd of 16, Ricardo 198.** Live gap TBD — rivals bank R32 points too; needs a fresh Pollaya standings check next run. |
+| #1 priority | **(1) ENTER same-day games EARLY — never leave a blank** (NED-MAR lost to a late, post-kickoff resume). **(2)** Hunt the exact (modal scoreline); **don't over-inflate favorite margins** in cagey knockouts (GER-PRY 2-0 → 1-1); 1-1 is live on even ties (penalties excluded). |
 
 _Round-1 results & lessons: **`round1.md`** / **`round1_lessons.md`**. Knockout strategy: **`lessons.md`**._
