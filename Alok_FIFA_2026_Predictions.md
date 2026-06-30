@@ -24,9 +24,9 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Jul 1 | R32 | USA vs BIH | **2 - 1 (USA)** | Pending | — | 🔮 First-pass. USA at home over Bosnia; Džeko can nick one. |
 | Jul 2 | R32 | ESP vs AUT | **2 - 1 (ESP)** | Pending | — | 🔮 First-pass. Spain clear fav; Austria can score (3-3 vs ALG) → withhold X-0. |
 | Jul 2 | R32 | POR vs CRO | **1 - 1** | Pending | — | 🔮 First-pass. Even heavyweight tie (Ronaldo vs Modrić) + draw-heavy R32 → 1-1. |
-| Jul 2 | R32 | SUI vs ARG | **0 - 1 (ARG)** | Pending | — | 🔮 First-pass. Argentina fav vs a defensive Switzerland → low-scoring X-0 (cagey-knockout lean; alt 0-2). |
+| Jul 2 | R32 | SUI vs ALG | **2 - 1 (SUI)** | Pending | — | 🔮 First-pass. ⚠️ **Corrected ARG/ALG mix-up:** this is **Switzerland vs Algeria** (Pollaya labels Algeria "ARG"=Argelia; confirmed via FIFA bracket + Pollaya team-name images). Switzerland favored → 2-1; Algeria can score. |
 | Jul 3 | R32 | AUS vs EGY | **1 - 1** | Pending | — | 🔮 First-pass. Even/low-scoring (Salah's Egypt vs organized Australia) → 1-1. |
-| Jul 3 | R32 | ALG vs CPV | **1 - 1** | Pending | — | 🔮 First-pass. Two even surprise sides (Algeria vs Cape Verde) → 1-1. |
+| Jul 3 | R32 | ARG vs CPV | **2 - 0 (ARG)** | Pending | — | 🔮 First-pass. ⚠️ **Corrected:** this is **Argentina vs Cape Verde** (not Algeria — Pollaya "ARG"=Argentina here; FIFA bracket = Argentina-Cape Verde, Miami Jul 3). Argentina heavy fav vs a minnow → 2-0 (X-0). |
 | Jul 3 | R32 | COL vs GHN | **2 - 1 (COL)** | Pending | — | 🔮 First-pass. Colombia clear fav; defensive Ghana nicks one → 2-1. |
 
 ---
