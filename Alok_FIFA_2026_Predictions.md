@@ -19,6 +19,15 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | Jun 30 | R32 | CIV vs NOR | **1 - 2 (NOR)** | Pending | — | ✅ SUBMITTED + reload-verified. Norway slight fav (48%, Haaland/Ødegaard) but **leaky D (7 conceded in 3)** → **red-team fix from 1-0**: back the favorite but withhold the X-0 → CIV nicks one → 2-1. Lowest-confidence; alt 1-1 (draw-prone even tie). 🎯 aim 6 · likely 3. |
 | Jun 30 | R32 | FRA vs SWE | **2 - 1 (FRA)** | Pending | — | ✅ SUBMITTED + reload-verified. France -400 heavy fav (Mbappé/Dembélé, beat NOR 4-1); withhold the X-0 for Sweden's Isak + Gyökeres → 2-1. 🎯 aim 6 · likely 4. |
 | Jun 30 | R32 | MEX vs ECU | **1 - 0 (MEX)** | Pending | — | ✅ SUBMITTED + reload-verified. Two elite Ds, Under 1.5; Mexico home (Azteca) + yet to concede vs a toothless Ecuador → X-0. 🎯 aim 6 · likely 4. |
+| Jul 1 | R32 | ING vs CON | **2 - 0 (ENG)** | Pending | — | 🔮 **First-pass placeholder (refine on matchday).** England clear fav vs a weak DR Congo → X-0. |
+| Jul 1 | R32 | BEL vs SEN | **2 - 1 (BEL)** | Pending | — | 🔮 First-pass. Belgium slight fav; Senegal dangerous → 2-1 (alt 1-1). |
+| Jul 1 | R32 | USA vs BIH | **2 - 1 (USA)** | Pending | — | 🔮 First-pass. USA at home over Bosnia; Džeko can nick one. |
+| Jul 2 | R32 | ESP vs AUT | **2 - 1 (ESP)** | Pending | — | 🔮 First-pass. Spain clear fav; Austria can score (3-3 vs ALG) → withhold X-0. |
+| Jul 2 | R32 | POR vs CRO | **1 - 1** | Pending | — | 🔮 First-pass. Even heavyweight tie (Ronaldo vs Modrić) + draw-heavy R32 → 1-1. |
+| Jul 2 | R32 | SUI vs ARG | **0 - 1 (ARG)** | Pending | — | 🔮 First-pass. Argentina fav vs a defensive Switzerland → low-scoring X-0 (cagey-knockout lean; alt 0-2). |
+| Jul 3 | R32 | AUS vs EGY | **1 - 1** | Pending | — | 🔮 First-pass. Even/low-scoring (Salah's Egypt vs organized Australia) → 1-1. |
+| Jul 3 | R32 | ALG vs CPV | **1 - 1** | Pending | — | 🔮 First-pass. Two even surprise sides (Algeria vs Cape Verde) → 1-1. |
+| Jul 3 | R32 | COL vs GHN | **2 - 1 (COL)** | Pending | — | 🔮 First-pass. Colombia clear fav; defensive Ghana nicks one → 2-1. |
 
 ---
 
