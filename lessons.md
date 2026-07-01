@@ -2,7 +2,7 @@
 
 _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's full ledger + retrospective is archived in **`round1_lessons.md`** — read it once for context. The scoring is the **same as the group stage**; what changes is the game dynamics: **every match is win-or-out, both teams trying** (no dead rubbers / content-favorites / motivational rotation — though teams still rotate for injuries/suspensions)._
 
-**Last updated:** 2026-06-28 (eve) — **R32 underway: RSA 0-1 CAN graded → 🎯 exact (6) → 194 cumulative.** Group stage finished **188/426, 2nd of 16** (last app check Jun 28, pre-R32: Ricardo 198, then-gap 7 — live gap TBD now that R32 points are accruing for everyone). Pending R32: BRA 2-1 JPN, GER 2-0 PRY (Jun 29). _(Re-run the full workflow tomorrow AM for fresh team news on the next batch.)_
+**Last updated:** 2026-06-30 — **R32: RSA 0-1 CAN ✓6, BRA 2-1 JPN ✓6 (two exacts); GER 2-0 PRY = 0 (actual 1-1, pens); NED-MAR = 0 (NOT submitted — quota-pause overshot kickoff). Cumulative 200.** Jun 30 picks entered + reload-verified: **CIV 1-2 NOR, FRA 2-1 SWE, MEX 1-0 ECU.** Group stage 188/426, 2nd of 16 (live gap TBD — rivals bank R32 too). _(GER-PRY & NED-MAR were both 1-1 → R32 is running draw-heavy; don't over-inflate favorite margins.)_
 
 ---
 
@@ -39,3 +39,6 @@ _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's 
 | Date | Match | What we learned |
 | :--- | :--- | :--- |
 | Jun 28 | RSA 0-1 CAN | **Exact (6) — 1st knockout game.** The X-0 floor read held: a clear favorite (Canada -140, home) to nil vs a toothless side (SA ≤1 goal/game) = the 6. **Confirms the group 6/4/3/1/0 model transfers directly to knockouts** (same scoring). Late winner (90+2') but the margin stayed at 1, as the Davies-out cap implied — don't over-inflate favorite margins in cagey knockouts. |
+| Jun 29 | BRA 2-1 JPN | **Exact (6) — 2nd straight.** Full-strength favorite + a weakened opponent that still scores → the modal 2-1. Brazil trailed 0-1 at half then won late (Martinelli 90+5') — backing the favorite held through the scare. The modal-scoreline knockout model is working. |
+| Jun 29 | GER 2-0 PRY | **Miss (0): the 2-0 was too rich.** Germany (heavy fav) only drew a Gómez-less Paraguay 1-1 (pens). Backing Germany wasn't wrong, but the X-0/2-0 margin over-reached for a cagey knockout. **With NED-MAR also 1-1, two of the day's knockouts went to pens → R32 is draw-heavy: favor 1-0/1-1 over 2-0, respect the draw on tight ties.** |
+| Jun 29 | NED 1-1 MAR | **PROCESS miss (0 — not submitted).** Paused at 99% quota; the deferred resume landed after the lock → blank. **Hard operational rule: enter every same-day game EARLY (well before the ~15-min lock); a quota pause must never overshoot a kickoff.** This is the R1 un-submitted leak resurfacing — guard it. |
