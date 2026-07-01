@@ -37,7 +37,7 @@ _Active tracker for the **knockout rounds** (Round of 32 onward). Group stage (R
 | :--- | :--- |
 | Group stage carryover | **188 / 426** (71 games — see `round1.md`); finished **2nd of 16** |
 | Knockout games | **7 played** (RSA-CAN, BRA-JPN, GER-PRY, NED-MAR, CIV-NOR, FRA-SWE, MEX-ECU) |
-| Knockout points | **25** — 3 exacts 🎯 (RSA-CAN 6, BRA-JPN 6, CIV-NOR 6), 2 partial (MEX-ECU 4, FRA-SWE 3), 1 miss (GER-PRY 0), 1 not submitted (NED-MAR 0). 5/7 scored. |
+| Knockout points | **25** — 3 exacts 🎯 (RSA-CAN 6, BRA-JPN 6, CIV-NOR 6), 2 partials (MEX-ECU 4, FRA-SWE 3), 1 miss (GER-PRY 0), 1 not submitted (NED-MAR 0). 5/7 scored. |
 | **Cumulative pool total** | **213** (188 group + 25 knockout; app ~+3 offset) |
 | Standing | **Last app check Jun 28 (PRE-R32): 2nd of 16, Ricardo 198.** Live gap TBD — rivals bank R32 points too; needs a fresh Pollaya standings check. |
 | #1 priority | **(1) ENTER same-day games EARLY — never leave a blank** (NED-MAR lost to a late, post-kickoff resume). **(2)** Hunt the exact; **don't over-inflate favorite margins** (GER-PRY); **X-0 is live for genuine steamrollers** (FRA-SWE should have been X-0). |
