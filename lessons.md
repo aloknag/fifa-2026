@@ -2,7 +2,7 @@
 
 _Active calibration for the **knockout rounds** (Round of 32 onward). Round 1's full ledger + retrospective is archived in **`round1_lessons.md`** — read it once for context. The scoring is the **same as the group stage**; what changes is the game dynamics: **every match is win-or-out, both teams trying** (no dead rubbers / content-favorites / motivational rotation — though teams still rotate for injuries/suspensions)._
 
-**Last updated:** 2026-07-01 — **R32 through Jun 30: RSA ✓6, BRA ✓6, CIV ✓6 (3 exacts); MEX-ECU 4; FRA-SWE 3; GER-PRY 0; NED-MAR 0 (not submitted). Cumulative 213** (188 group + 25 knockout). 7 R32 games done, 9 remaining. Jul 1 picks (ENG-COD, BEL-SEN, USA-BIH) to refine today. _(FRA 3-0 SWE: the "withhold X-0 for Isak/Gyökeres" was over-cautious vs a -400 steamroller — see lesson log.)_
+**Last updated:** 2026-07-01 — **R32 through Jun 30: RSA ✓6, BRA ✓6, CIV ✓6 (3 exacts); MEX-ECU 4; FRA-SWE 3; GER-PRY 0; NED-MAR 0 (not submitted). Cumulative 213** (188 group + 25 knockout). 7 R32 games done, 9 remaining. Jul 1 picks (ENG-COD 2-1, BEL-SEN 2-1, USA-BIH 2-1) submitted + reload-verified. _(FRA 3-0 SWE: the "withhold X-0 for Isak/Gyökeres" was over-cautious vs a -400 steamroller — see lesson log.)_
 
 ---
 
